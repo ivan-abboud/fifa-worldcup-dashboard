@@ -32,7 +32,7 @@ sidebar = html.Div(
                 ),
                 dbc.NavLink(
                     [
-                        html.I(className="menu-icon tf-icons bx bx-info"),
+                        html.I(className="menu-icon tf-icons bx bx-info-circle"),
                         html.Span("About"),
                     ],
                     href="/about",
