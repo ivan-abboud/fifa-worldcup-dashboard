@@ -49,7 +49,7 @@ external_style_sheet += glob.glob(os.path.join(ASSETS_FOLDER,"fonts") + "/*.css"
 
 
 
-app = dash.Dash(title="WorldCup Dashboard",
+app = dash.Dash(__name__,title="WorldCup Dashboard",
                 external_stylesheets=[dbc.themes.BOOTSTRAP] + external_style_sheet,
                 suppress_callback_exceptions=True
                 )
