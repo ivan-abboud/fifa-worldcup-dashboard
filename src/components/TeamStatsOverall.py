@@ -6,8 +6,10 @@ import dash_bootstrap_components as dbc
 from dash import html
 import dash_loading_spinners as dls
 import utils.theme as theme
+from app import DATA_FOLDER, ASSETS_FOLDER
+import os
 
-teams = pd.read_csv("./data/processed/teams.csv")
+teams = pd.read_csv(os.path.join(DATA_FOLDER +"processed/teams.csv"))
 
 
 def StatsCard(icon, card_header="", card_body="", card_tail="", class_name="", card_subtitle=" ", icon_width="9rem", icon_class_name="img-fluid bx-lg"):
@@ -118,13 +120,13 @@ def update_team_stats(query_team, matches_df, qualified_teams_df, tours_df):
     participation_count = len(
         qualified_teams_df.loc[qualified_teams_df.team_name == query_team])
 
-    winning_times_card = StatsCard(icon="./assets/images/ic_world_cup.png",  card_body=f"{winning_times}",
+    winning_times_card = StatsCard(icon=os.path.join(ASSETS_FOLDER,"/images/ic_world_cup.png"),  card_body=f"{winning_times}",
                                    card_subtitle=winning_years, card_tail="Times Winner", icon_width="8rem")
 
-    participation_count_card = StatsCard(icon="./assets/images/ic_stadium.png",  card_body=f"{participation_count}",
+    participation_count_card = StatsCard(icon=os.path.join(ASSETS_FOLDER,"images/ic_stadium.png"),  card_body=f"{participation_count}",
                                          card_tail="Participations")
 
-    matches_count_card = StatsCard(icon="./assets/images/ic_soccer_ball.png",
+    matches_count_card = StatsCard(icon=os.path.join(ASSETS_FOLDER,"images/ic_soccer_ball.png"),
                                    card_body=f"{matches_count}", card_tail="Matches", icon_width="9rem", icon_class_name="img-fluid")
 
     return winning_times_card, participation_count_card, matches_count_card
@@ -145,7 +147,7 @@ def update_team_select(query_team, teams_df):
     team_code = f"Team Code: {teams_df.loc[teams_df.team_name==query_team , 'team_code'].values[0]}"
     team_region = f"Region: {teams_df.loc[teams_df.team_name==query_team , 'region_name'].values[0]}"
     team_confederation = f"Confedration: {teams_df.loc[teams_df.team_name==query_team , 'confederation_code'].values[0]}"
-    team_flag = f"./assets/flags/4x3/{query_team}.svg"
+    team_flag = os.path.join(ASSETS_FOLDER, f"/flags/4x3/{query_team}.svg")
     wiki_link = teams_df.loc[teams_df.team_name ==
                              query_team, 'team_wikipedia_link'].values[0]
     return team_code, team_region, team_confederation, team_flag, wiki_link, f"Read More About {query_team}"

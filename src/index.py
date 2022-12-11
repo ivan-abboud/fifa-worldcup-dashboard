@@ -1,6 +1,5 @@
 from dash import html, dcc
 from components.NavbarVertical import sidebar
-from components.BarChartCard import *
 from pages.team_analysis import team_analysis_page_content
 from dash.dependencies import Input, Output
 from app import app, data_store

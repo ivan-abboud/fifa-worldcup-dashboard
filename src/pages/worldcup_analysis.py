@@ -3,7 +3,8 @@ import dash_bootstrap_components as dbc
 from components.WC_Header import WCHeaderCard
 from components.WCWinnerRegionSunburst import WCWinnerRegion
 from components.WCComponents import *
-
+from app import ASSETS_FOLDER
+from utils.theme import LINKEDIN
 
 intro_card = html.Div(className="col-md-12 col-lg-12 mb-md-0 mb-4 card-chart-container", children=[
 
@@ -21,7 +22,7 @@ intro_card = html.Div(className="col-md-12 col-lg-12 mb-md-0 mb-4 card-chart-con
                     "to see their numbers and performance through world cup"], className="card-title me-4"),
 
                 html.P(["Please feel free to report any problems or reach me directely,",
-                html.A(" Ivan Abboud", href="/team-analysis", style={"color": "#0084d6"})],className="card-title me-4 mb-0 mt-5"),
+                html.A(" Ivan Abboud", href=LINKEDIN, style={"color": "#0084d6"})],className="card-title me-4 mb-0 mt-5"),
 
             ]),
 
