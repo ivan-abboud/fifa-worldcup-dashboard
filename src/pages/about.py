@@ -13,7 +13,7 @@ about_page_content = html.Div(className="col-md-12 col-sm-12 col-lg-8 mb-md-0 mb
                                             children=[about_me_text], style={"font-size":"1rem"}),
                                    ]),
                                    html.Small(
-                             className="card-text", children=["call me"]
+                             className="card-text", children=[]
                          )
                          ]),
                 html.Div(className="card-icon d-flex align-items-end", children=[
