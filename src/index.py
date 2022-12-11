@@ -7,46 +7,36 @@ from components.Footer import Footer
 from pages.worldcup_analysis import worldcup_page_content
 from pages.about import about_page_content
 
+# app.layout = html.Div(className="layout-wrapper layout-content-navbar",
+#          children=[
+#              html.Div(className="layout-container",
+#                       children=[
+#                         dcc.Location(id="url"),
+#                       data_store,
+#                           html.Aside(className="",
+#                                      children=[
+#                                         sidebar
 
-page_content = html.Div(
-    className="layout-page container-xxl flex-grow-1 container-p-y pb-0 mt-5",
-    children=[
-        html.Div(id="page-content"),
-    ],
-    style={"padding-top": "70px"}
-)
+#                                      ]),
+#                           html.Div(className="layout-page",
+#                                    children=[
+#                                        html.Div(className="content-wrapper",
+#                                                 children=[
+#                                                     html.Div(className="container-xxl flex-grow-1 container-p-y",
+#                                                                 id="page-content",
+#                                                              children=[
 
+#                                                              ]),
+#                                                     html.Footer(className="content-footer footer bg-footer-theme",
+#                                                                 children=[
+#                                                                     Footer
+#                                                                 ],style={"margin-left":"6rem"})
 
-app.layout = html.Div(className="layout-wrapper layout-content-navbar",
-         children=[
-             html.Div(className="layout-container",
-                      children=[
-                        dcc.Location(id="url"),
-                      data_store,
-                          html.Aside(className="",
-                                     children=[
-                                        sidebar
+#                                                 ])
+#                                    ])
 
-                                     ]),
-                          html.Div(className="layout-page",
-                                   children=[
-                                       html.Div(className="content-wrapper",
-                                                children=[
-                                                    html.Div(className="container-xxl flex-grow-1 container-p-y",
-                                                                id="page-content",
-                                                             children=[
-
-                                                             ]),
-                                                    html.Footer(className="content-footer footer bg-footer-theme",
-                                                                children=[
-                                                                    Footer
-                                                                ],style={"margin-left":"6rem"})
-
-                                                ])
-                                   ])
-
-                      ])
-         ])
+#                       ])
+#          ])
 
 @callback(
     Output(component_id='page-content', component_property='children'),

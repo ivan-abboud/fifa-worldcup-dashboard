@@ -2,6 +2,12 @@ import dash
 import dash_bootstrap_components as dbc
 from dash import dcc, html, callback
 import pandas as pd
+from components.NavbarVertical import sidebar
+from components.Footer import Footer
+from dash.dependencies import Input, Output
+from pages.worldcup_analysis import worldcup_page_content
+from pages.team_analysis import team_analysis_page_content
+from pages.about import about_page_content
 
 # RAW
 
@@ -35,49 +41,49 @@ app = dash.Dash(title="WorldCup Dashboard",
                 )
 
 
-# app.layout = html.Div(className="layout-wrapper layout-content-navbar",
-#          children=[
-#              html.Div(className="layout-container",
-#                       children=[
-#                         dcc.Location(id="url"),
-#                       data_store,
-#                           html.Aside(className="",
-#                                      children=[
-#                                         sidebar
+app.layout = html.Div(className="layout-wrapper layout-content-navbar",
+         children=[
+             html.Div(className="layout-container",
+                      children=[
+                        dcc.Location(id="url"),
+                      data_store,
+                          html.Aside(className="",
+                                     children=[
+                                        sidebar
 
-#                                      ]),
-#                           html.Div(className="layout-page",
-#                                    children=[
-#                                        html.Div(className="content-wrapper",
-#                                                 children=[
-#                                                     html.Div(className="container-xxl flex-grow-1 container-p-y",
-#                                                                 id="page-content",
-#                                                              children=[
+                                     ]),
+                          html.Div(className="layout-page",
+                                   children=[
+                                       html.Div(className="content-wrapper",
+                                                children=[
+                                                    html.Div(className="container-xxl flex-grow-1 container-p-y",
+                                                                id="page-content",
+                                                             children=[
 
-#                                                              ]),
-#                                                     html.Footer(className="content-footer footer bg-footer-theme",
-#                                                                 children=[
-#                                                                     Footer
-#                                                                 ],style={"margin-left":"6rem"})
+                                                             ]),
+                                                    html.Footer(className="content-footer footer bg-footer-theme",
+                                                                children=[
+                                                                    Footer
+                                                                ],style={"margin-left":"6rem"})
 
-#                                                 ])
-#                                    ])
+                                                ])
+                                   ])
 
-#                       ])
-#          ])
+                      ])
+         ])
+
+@callback(
+    Output(component_id='page-content', component_property='children'),
+    Input(component_id='url', component_property='pathname')
+)
+def routing(path):
+    if path == "/":
+        return worldcup_page_content
+    elif path == "/team-analysis":
+        return team_analysis_page_content
+    elif path == "/about":
+        return about_page_content
 
 
-# @callback(
-#     Output(component_id='page-content', component_property='children'),
-#     Input(component_id='url', component_property='pathname')
-# )
-# def routing(path):
-#     if path == "/":
-#         return worldcup_page_content
-#     elif path == "/team-analysis":
-#         return team_analysis_page_content
-#     elif path == "/about":
-#         return about_page_content
-
-# if __name__ == "__main__":
-#     app.run_server(debug=True, host="0.0.0.0", port=5050)
+if __name__ == "__main__":
+    app.run_server(debug=True, host="0.0.0.0", port=5050)
