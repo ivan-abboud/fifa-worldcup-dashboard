@@ -70,7 +70,7 @@ app.layout = html.Div(className="layout-wrapper layout-content-navbar",
                                    children=[
                                        html.Div(className="content-wrapper",
                                                 children=[
-                                                    html.Div(className="container-xxl flex-grow-1 container-p-y",
+                                                    html.Div(className="container-xxl flex-grow-1 container-p-y p-0",
                                                                 id="page-content",
                                                              children=[
 

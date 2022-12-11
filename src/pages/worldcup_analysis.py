@@ -15,13 +15,15 @@ intro_card = html.Div(className="col-md-12 col-lg-12 mb-md-0 mb-4 card-chart-con
                 html.Span(
                     "From Data Science Point-of-View", style={"color": "#0084d6", "font-size": "1.5vw"})
             ]),
-                html.P(["This dashboard is a demonstration of FIFA World Cup tournaments through history, winners, hosts teams and other statistics about World Cups,\
-                    also you can check each team statistics in the",
-                    html.A(" Teams tab ", href="/team-analysis", style={"color": "#0084d6"}),
-                    "to see their numbers and performance through world cup"], className="card-title me-4"),
+                html.P(["This dashboard presents all you need to know about FIFA World Cup tournaments through history: winners, hosting countries, matches, and more. You can also check each team's statistics and compare teams with each other in the",
+                    html.A(" Teams tab.", href="/team-analysis", style={"color": "#0084d6"}),
+                    html.P("*Note: dashboard doesn't include Qatar 2022 WorldCup data." , className="mt-1")
+                    #"to see their numbers and performance through world cup"
+                    ], className="card-title me-4"),
 
+                
                 html.P(["Please feel free to report any problems or reach me directely,",
-                html.A(" Ivan Abboud", href=LINKEDIN, style={"color": "#0084d6"})],className="card-title me-4 mb-0 mt-5"),
+                html.A(" Ivan Abboud.", href=LINKEDIN, style={"color": "#0084d6"})],className="card-title me-4 mb-0 mt-4"),
 
             ]),
 

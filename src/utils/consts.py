@@ -12,3 +12,8 @@ data = pd.read_csv(os.path.join(DATA_FOLDER,"processed/qualified_teams.csv"))
 goals = pd.read_csv(os.path.join(DATA_FOLDER,"processed/goals.csv"))
 tours = pd.read_csv(os.path.join(DATA_FOLDER,"processed/tournaments.csv"))
 matches = pd.read_csv(os.path.join(DATA_FOLDER,"processed/matches.csv"))
+
+
+GITHUB_PROFILE = "https://github.com/ivan-abboud"
+FACEBOOK_PROFILE = "https://www.facebook.com/yvan.abboud"
+LINKEDIN_PROFILE = "https://www.linkedin.com/in/ivan-abboud-737b2120a/"

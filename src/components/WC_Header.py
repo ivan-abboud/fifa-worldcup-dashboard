@@ -21,7 +21,7 @@ winners = [build_component(y, icon) for y, icon in zip(years, icons)]
 WCHeaderCard = html.Div(className="col-md-12 col-lg-12 mb-md-0 mb-4 card-chart-container", children=[
     html.Div(className="card", children=[
         html.Div(className="card-header card-m-0 me-2 pb-3", children=[
-            html.H2("World Cup All Times Winners",
+            html.H2("World Cup All-Time Winners",
                     className="card-title text-center m-0 me-2", style={"font-size": "2vw"}),
         ]),
 

@@ -110,7 +110,7 @@ PenaltiesCountPerTour = create_card(class_name="card-chart-container col-lg-12 c
 
 
 GoalsCountPerTourLine = create_card(class_name="card-chart-container col-lg-12 col-md-12 col-sm-12",
-                                    title="Goals Count Per Tour",
+                                    title="Goals Count in Each Tour",
                                     fig=px.line(goals.groupby(
                                         "year", as_index=False).size(), x="year", y="size",
                                         labels={"year":"Year" , "size":"Count"},
@@ -130,7 +130,7 @@ CountriesAwardsBar = create_card(class_name="card-chart-container col-lg-12 col-
                                  ).update_layout(yaxis_title="Total Awards"))
 
 MostAttendedMatchesBar = create_card(class_name="card-chart-container col-lg-5 col-md-12 col-sm-12",
-                                     title="Most Atteneded Match In Each Tour",
+                                     title="Most Attended Match In Each Tour",
                                      fig=px.bar(tours, x="number", y="year",
                                                 text="game(s)",
                                                 hover_data=["venue", "hosts"],
