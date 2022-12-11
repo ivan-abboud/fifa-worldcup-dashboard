@@ -1,15 +1,15 @@
 from components.StatsCardWithIcon import CardWithIcon
 from dash.dependencies import Input, Output, State
-from app import app
 import pandas as pd
 import dash_bootstrap_components as dbc
 from dash import html
 import dash_loading_spinners as dls
 import utils.theme as theme
-from app import DATA_FOLDER, ASSETS_FOLDER
 import os
+from dash import callback
+from utils.consts import *
 
-teams = pd.read_csv(os.path.join(DATA_FOLDER +"processed/teams.csv"))
+teams = pd.read_csv(os.path.join(DATA_FOLDER +"/processed/teams.csv"))
 
 
 def StatsCard(icon, card_header="", card_body="", card_tail="", class_name="", card_subtitle=" ", icon_width="9rem", icon_class_name="img-fluid bx-lg"):
@@ -98,7 +98,7 @@ TeamStatsOverall = dbc.Row(children=[
 ])
 
 
-@app.callback(
+@callback(
     Output("team-stats-wc-winning", "children"),
     Output("team-stats-participation", "children"),
     Output("team-stats-matches", "children"),
@@ -132,7 +132,7 @@ def update_team_stats(query_team, matches_df, qualified_teams_df, tours_df):
     return winning_times_card, participation_count_card, matches_count_card
 
 
-@app.callback(
+@callback(
     Output("team-code-text", "children"),
     Output("team-region-text", "children"),
     Output("team-confederation-text", "children"),

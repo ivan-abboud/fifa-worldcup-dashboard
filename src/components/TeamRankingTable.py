@@ -6,7 +6,7 @@ import utils.theme as theme
 import pandas as pd
 from dash.dependencies import Input, Output, State
 import dash_loading_spinners as dls
-from app import app
+from dash import callback
 
 TeamRankingTable = html.Div(className="col-md-12 col-lg-4 mb-md-0 mb-4 card-chart-container", children=[
     html.Div(className="card", children=[
@@ -23,7 +23,7 @@ TeamRankingTable = html.Div(className="col-md-12 col-lg-4 mb-md-0 mb-4 card-char
 ])
 
 
-@app.callback(
+@callback(
     Output("team-ranking-table", "children"),
     Input("query-team-select", "value"),
     State("qualified-teams-df" , "data")

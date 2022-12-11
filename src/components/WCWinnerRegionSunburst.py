@@ -1,6 +1,6 @@
 
 import plotly.express as px
-from app import tours, teams
+from utils.consts import tours, teams
 from dash import html, dcc
 import utils.theme as theme
 

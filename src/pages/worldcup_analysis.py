@@ -3,7 +3,6 @@ import dash_bootstrap_components as dbc
 from components.WC_Header import WCHeaderCard
 from components.WCWinnerRegionSunburst import WCWinnerRegion
 from components.WCComponents import *
-from app import ASSETS_FOLDER
 from utils.theme import LINKEDIN
 
 intro_card = html.Div(className="col-md-12 col-lg-12 mb-md-0 mb-4 card-chart-container", children=[

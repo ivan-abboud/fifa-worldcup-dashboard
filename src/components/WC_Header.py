@@ -1,11 +1,6 @@
 from dash import html
-import dash_loading_spinners as dls
-import utils.theme as theme
 import dash_bootstrap_components as dbc
-from app import app
-from dash.dependencies import Output, Input, State
-import pandas as pd
-from app import tours as tours_df
+from utils.consts import tours as tours_df
 
 
 def build_component(title="", src=""):

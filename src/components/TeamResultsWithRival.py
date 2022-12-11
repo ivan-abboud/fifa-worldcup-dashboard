@@ -5,8 +5,7 @@ import utils.theme as theme
 import pandas as pd
 from dash.dependencies import Input, Output, State
 import dash_loading_spinners as dls
-from app import app
-
+from dash import callback
 
 TeamResultsWithRival = html.Div(className="card-chart-container col-lg-4 md-6 sm-12",
                                 children=[
@@ -25,7 +24,7 @@ TeamResultsWithRival = html.Div(className="card-chart-container col-lg-4 md-6 sm
                                 )
 
 
-@app.callback(
+@callback(
     Output("team-results-with-rival", "children"),
     Input("query-team-select", "value"),
     Input("rival-team-select", "value"),

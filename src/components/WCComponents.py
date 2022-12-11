@@ -3,7 +3,7 @@ import pandas as pd
 from dash import html, dcc
 import dash_bootstrap_components as dbc
 import utils.theme as theme
-from app import tours, goals, award_winners, teams
+from utils.consts import tours, goals, award_winners, teams
 import numpy as np
 
 

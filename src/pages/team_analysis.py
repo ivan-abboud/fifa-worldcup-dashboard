@@ -1,13 +1,6 @@
-import plotly.express as px
-import pandas as pd
-from dash import html, dcc
+from dash import html
 import dash_bootstrap_components as dbc
-import utils.theme as theme
 import pandas as pd
-import dash
-from dash.dependencies import Input, Output
-import dash_loading_spinners as dls
-from app import app
 from components.TeamRankingTable import TeamRankingTable
 from components.TeamGoalsCountPerTour import TeamGoalsCountPerTour
 from components.TeamGoalsCountPerMin import TeamGoalsCountPerMin

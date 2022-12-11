@@ -5,8 +5,7 @@ import utils.theme as theme
 import pandas as pd
 from dash.dependencies import Input, Output, State
 import dash_loading_spinners as dls
-from app import app
-
+from dash import callback
 
 TeamGoalsCountPerTour = html.Div(className="card-chart-container col-lg-6 md-6 sm-12",
                        children=[
@@ -30,7 +29,7 @@ TeamGoalsCountPerTour = html.Div(className="card-chart-container col-lg-6 md-6 s
                        )
 
 
-@app.callback(
+@callback(
     Output("team-goals-count-per-tour", "children"),
     Input("query-team-select", "value"),
     State("goals-df", "data"),

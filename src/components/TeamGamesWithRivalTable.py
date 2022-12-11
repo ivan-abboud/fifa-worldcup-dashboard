@@ -1,9 +1,8 @@
 import pandas as pd
-from dash import html
+from dash import html, callback
 import utils.theme as theme
 from dash.dependencies import Input, Output, State
 import dash_loading_spinners as dls
-from app import app
 import dash_bootstrap_components as dbc
 from components.StatsCardWithIcon import CardWithIcon
 
@@ -31,7 +30,7 @@ TeamGamesWithRivalTable = html.Div(className="col-md-6 col-lg-5 mb-md-0 mb-4 car
 ])
 
 
-@app.callback(
+@callback(
     Output("team-games-with-rival-table", "children"),
     Output("competitors-goals-count", "children"),
     Output("team-rival-history" , "children"),

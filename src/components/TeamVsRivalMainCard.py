@@ -5,8 +5,8 @@ import utils.theme as theme
 import pandas as pd
 from dash.dependencies import Input, Output, State
 import dash_loading_spinners as dls
-from app import app
 import numpy as np
+from dash import callback
 
 
 RivalSectionTitle = html.Div([
@@ -72,7 +72,7 @@ TeamVsRivalMainCard = html.Div(className="col-md-6 col-lg-3 mb-md-0 mb-4 card-ch
                                )
 
 
-@app.callback(
+@callback(
     Output("rival-team-select", "options"),
     Output("rival-team-select", "value"),
     Output("rival-main-card-subtitle", "children"),
@@ -99,7 +99,7 @@ def update_rival_select_options(query_team, matches_df):
     return options, rival_teams[np.random.randint(0,len(rival_teams))], card_subtitle, query_team
 
 
-@app.callback(
+@callback(
     Output("rival-main-card-icon", "src"),
     Output("rival-main-card-header" , "children"),
     Output("rival-main-card-body" , "children"),

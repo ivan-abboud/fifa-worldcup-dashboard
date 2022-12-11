@@ -1,11 +1,10 @@
 import plotly.express as px
 import pandas as pd
-from dash import html, dcc
+from dash import html, dcc, callback
 import utils.theme as theme
 import pandas as pd
 from dash.dependencies import Input, Output, State
 import dash_loading_spinners as dls
-from app import app
 import numpy as np
 
 
@@ -31,7 +30,7 @@ TeamGoalsCountPerMin = html.Div(className="card-chart-container col-lg-8 md-6 sm
                        )
 
 
-@app.callback(
+@callback(
     Output("team-goals-count-per-minute", "children"),
     Input("query-team-select", "value"),
     State("goals-df", "data")

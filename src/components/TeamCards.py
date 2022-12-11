@@ -1,11 +1,7 @@
 from components.StatsCardWithIcon import CardWithIcon
 from dash.dependencies import Input, Output, State
-from app import app
 import pandas as pd
-import dash_bootstrap_components as dbc
-from dash import html
-import dash_loading_spinners as dls
-import utils.theme as theme
+from dash import html, callback
 
 
 def StatsCard(icon, card_header="", card_body="", card_tail="", class_name="", card_subtitle=""):
@@ -44,7 +40,7 @@ TeamBookings = html.Div(
     className="col-md-12 col-lg-2 mb-md-0 mb-4 card-chart-container d-flex flex-column justify-content-between", id="team-bookings")
 
 
-@app.callback(
+@callback(
     Output("team-bookings", "children"),
     Input("query-team-select", "value"),
     State("bookings-df", "data"),
