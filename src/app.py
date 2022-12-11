@@ -14,6 +14,7 @@ from dash.dependencies import Input, Output
 from pages.worldcup_analysis import worldcup_page_content
 from pages.team_analysis import team_analysis_page_content
 from pages.about import about_page_content
+import glob
 
 
 
@@ -42,9 +43,14 @@ data_store = html.Div([dcc.Store(id="qualified-teams-df", data=data.to_json()),
                        dcc.Store(id="teams-df", data=teams.to_json()),
                        dcc.Store(id="bookings-df", data=bookings.to_json())])
 
+external_style_sheet = glob.glob(os.path.join(ASSETS_FOLDER,"bootstrap/css") + "/*.css")
+external_style_sheet += glob.glob(os.path.join(ASSETS_FOLDER,"css") + "/*.css")
+external_style_sheet += glob.glob(os.path.join(ASSETS_FOLDER,"fonts") + "/*.css")
+
+
+
 app = dash.Dash(title="WorldCup Dashboard",
-                external_stylesheets=[dbc.themes.BOOTSTRAP,
-                                      os.path.join(ASSETS_FOLDER,"bootstrap/bootstrap.min.css")],
+                external_stylesheets=[dbc.themes.BOOTSTRAP] + external_style_sheet,
                 suppress_callback_exceptions=True
                 )
 
