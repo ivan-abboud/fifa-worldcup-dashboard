@@ -22,8 +22,10 @@ data_store = html.Div([dcc.Store(id="qualified-teams-df", data=data.to_json()),
                        dcc.Store(id="teams-df", data=teams.to_json()),
                        dcc.Store(id="bookings-df", data=bookings.to_json())])
 
-app = dash.Dash(title="WorldCup",
+app = dash.Dash(title="WorldCup Dashboard",
                 external_stylesheets=[dbc.themes.BOOTSTRAP,
                                       "./assets/bootstrap/bootstrap.min.css"],
                 suppress_callback_exceptions=True
                 )
+
+server = app.server
