@@ -33,5 +33,3 @@ app = dash.Dash(title="WorldCup Dashboard",
                                       os.path.join(ASSETS_FOLDER,"bootstrap/bootstrap.min.css")],
                 suppress_callback_exceptions=True
                 )
-
-server = app.server
