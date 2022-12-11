@@ -1,3 +1,9 @@
+import sys
+import os
+module_path = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__))))
+if module_path not in sys.path:
+    sys.path.append(module_path)
+
 import dash
 import dash_bootstrap_components as dbc
 from dash import dcc, html, callback
@@ -8,6 +14,8 @@ from dash.dependencies import Input, Output
 from pages.worldcup_analysis import worldcup_page_content
 from pages.team_analysis import team_analysis_page_content
 from pages.about import about_page_content
+
+
 
 # RAW
 
