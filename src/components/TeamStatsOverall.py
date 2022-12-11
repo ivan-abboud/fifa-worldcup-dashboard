@@ -7,7 +7,7 @@ from dash import html
 import dash_loading_spinners as dls
 import utils.theme as theme
 
-teams = pd.read_csv("./data/raw/teams.csv")
+teams = pd.read_csv("./data/processed/teams.csv")
 
 
 def StatsCard(icon, card_header="", card_body="", card_tail="", class_name="", card_subtitle=" ", icon_width="9rem", icon_class_name="img-fluid bx-lg"):

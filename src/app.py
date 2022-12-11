@@ -4,11 +4,12 @@ from dash import dcc, html
 import pandas as pd
 
 # RAW
-teams = pd.read_csv("./data/raw/teams.csv")
-bookings = pd.read_csv("./data/raw/bookings.csv")
-award_winners = pd.read_csv("./data/raw/award_winners.csv")
+
 
 # Processed
+teams = pd.read_csv("./data/processed/teams.csv")
+bookings = pd.read_csv("./data/processed/bookings.csv")
+award_winners = pd.read_csv("./data/processed/award_winners.csv")
 data = pd.read_csv("./data/processed/qualified_teams.csv")
 goals = pd.read_csv("./data/processed/goals.csv")
 tours = pd.read_csv("./data/processed/tournaments.csv")
