@@ -104,6 +104,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.vscode
 env/
 venv/
 ENV/
@@ -127,3 +128,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Folders
+/notebooks
+/reports
+/country.json
+/src/assets/flags/1x1
+/data/raw

@@ -1,0 +1,22 @@
+key_id,tournament_id,tournament_name,year,start_date,end_date,host_country,winner,host_won,count_teams,group_stage,second_group_stage,final_round,round_of_16,quarter_finals,semi_finals,third_place_match,final,hosts,total_attendance,matches,avg_attendance,number,venue,game(s),venues,cities
+1,WC-1930,1930 FIFA World Cup,1930,1930-07-13,1930-07-30,Uruguay,Uruguay,1,13,1,0,0,0,0,1,0,1, Uruguay,590549,18,32808,93000,"Estadio Centenario, Montevideo","Uruguay 6–1 Yugoslavia, Semi-final",3,1
+2,WC-1934,1934 FIFA World Cup,1934,1934-05-27,1934-06-10,Italy,Italy,1,16,0,0,0,1,1,1,1,1, Italy,363000,17,21353,55000,"Stadio Nazionale PNF, Rome","Italy 2–1 Czechoslovakia, Final",8,8
+3,WC-1938,1938 FIFA World Cup,1938,1938-06-04,1938-06-19,France,Italy,0,15,0,0,0,1,1,1,1,1, France,375700,18,20872,58455,"Olympique de Colombes, Paris","France 1–3 Italy, Quarter-final",10,9
+4,WC-1950,1950 FIFA World Cup,1950,1950-06-24,1950-07-16,Brazil,Uruguay,0,13,1,0,1,0,0,0,0,0, Brazil,1045246,22,47511,173850,"Maracanã Stadium, Rio de Janeiro","Brazil 1–2 Uruguay, Deciding match",6,6
+5,WC-1954,1954 FIFA World Cup,1954,1954-06-16,1954-07-04,Switzerland,Germany,0,16,1,0,0,0,1,1,1,1, Switzerland,768607,26,29562,63000,"Wankdorf Stadium, Bern","West Germany 3–2 Hungary, Final",6,6
+6,WC-1958,1958 FIFA World Cup,1958,1958-06-08,1958-06-29,Sweden,Brazil,0,16,1,0,0,0,1,1,1,1, Sweden,819810,35,23423,50928,"Ullevi Stadium, Gothenburg","Brazil 2–0 Soviet Union, Group stage",12,12
+7,WC-1962,1962 FIFA World Cup,1962,1962-05-30,1962-07-17,Chile,Brazil,0,16,1,0,0,0,1,1,1,1, Chile,893172,32,27912,68679,"Estadio Nacional, Santiago","Brazil 4–2 Chile, Semi-final",4,4
+8,WC-1966,1966 FIFA World Cup,1966,1966-07-11,1966-07-30,England,England,1,16,1,0,0,0,1,1,1,1, England,1563135,32,48848,98270,"Wembley Stadium, London","England 4–2 West Germany, Final",8,7
+9,WC-1970,1970 FIFA World Cup,1970,1970-05-31,1970-06-21,Mexico,Brazil,0,16,1,0,0,0,1,1,1,1, Mexico,1603975,32,50124,108192,"Estadio Azteca, Mexico City","Mexico 1–0 Belgium, Group stage",5,5
+10,WC-1974,1974 FIFA World Cup,1974,1974-06-13,1974-07-07,Germany,Germany,1,16,1,1,0,0,0,0,1,1, West Germany,1865753,38,49099,83168,"Olympiastadion, Munich","West Germany 1–0 Chile, Group stage",9,9
+11,WC-1978,1978 FIFA World Cup,1978,1978-06-01,1978-06-25,Argentina,Argentina,1,16,1,1,0,0,0,0,1,1, Argentina,1545791,38,40679,71712,"Estadio Monumental, Buenos Aires","Italy 1–0 Argentina, Group stage",6,5
+12,WC-1982,1982 FIFA World Cup,1982,1982-06-13,1982-07-11,Spain,Italy,0,24,1,1,0,0,0,1,1,1, Spain,2109723,52,40572,95500,"Camp Nou, Barcelona","Argentina 0–1 Belgium, Opening match",17,14
+13,WC-1986,1986 FIFA World Cup,1986,1986-05-31,1986-06-29,Mexico,Argentina,0,24,1,0,0,1,1,1,1,1, Mexico,2394031,52,46039,114600,"Estadio Azteca, Mexico City","Mexico 1–1 Paraguay, Group stage Argentina 3–2 West Germany, Final",12,11
+14,WC-1990,1990 FIFA World Cup,1990,1990-06-08,1990-07-08,Italy,Germany,0,24,1,0,0,1,1,1,1,1, Italy,2516215,52,48389,74765,"San Siro, Milan","West Germany 4–1 Yugoslavia, Group stage",12,12
+15,WC-1994,1994 FIFA World Cup,1994,1994-06-17,1994-07-17,United States,Brazil,0,24,1,0,0,1,1,1,1,1, United States,3587538,52,68991,94194,"Rose Bowl, Pasadena, California","Brazil 0–0 (3–2p) Italy, Final",9,9
+16,WC-1998,1998 FIFA World Cup,1998,1998-06-10,1998-07-12,France,France,1,32,1,0,0,1,1,1,1,1, France,2785100,64,43517,80000,"Stade de France, Saint-Denis","Brazil 0–3 France, Final",10,10
+17,WC-2002,2002 FIFA World Cup,2002,2002-05-31,2002-06-30,"Korea, Japan",Brazil,0,32,1,0,0,1,1,1,1,1, South Korea/Japan,2705197,64,42269,69029,"International Stadium, Yokohama, Japan","Brazil 2–0 Germany, Final",20,20
+18,WC-2006,2006 FIFA World Cup,2006,2006-06-09,2006-07-09,Germany,Italy,0,32,1,0,0,1,1,1,1,1, Germany,3359439,64,52491,72000,"Olympiastadion, Berlin","Germany 1–1 (4–2p) Argentina, Quarter-final",12,12
+19,WC-2010,2010 FIFA World Cup,2010,2010-06-11,2010-07-11,South Africa,Spain,0,32,1,0,0,1,1,1,1,1, South Africa,3178856,64,49670,84490,"Soccer City, Johannesburg","Spain 1–0 Netherlands, Final",10,9
+20,WC-2014,2014 FIFA World Cup,2014,2014-06-12,2014-07-13,Brazil,Germany,0,32,1,0,0,1,1,1,1,1, Brazil,3429873,64,53592,74738,"Maracanã Stadium, Rio de Janeiro","Germany 1–0 Argentina, Final",12,12
+21,WC-2018,2018 FIFA World Cup,2018,2018-06-14,2018-07-15,Russia,France,0,32,1,0,0,1,1,1,1,1, Russia,3031768,64,47371,78011,"Luzhniki Stadium, Moscow","France 4–2 Croatia, Final",12,11

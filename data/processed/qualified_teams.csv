@@ -1,0 +1,458 @@
+key_id,tournament_id,tournament_name,team_id,team_name,team_code,count_matches,performance,year
+1,WC-1930,1930 FIFA World Cup,T-03,Argentina,ARG,5,final,1930
+2,WC-1930,1930 FIFA World Cup,T-06,Belgium,BEL,2,group stage,1930
+3,WC-1930,1930 FIFA World Cup,T-07,Bolivia,BOL,2,group stage,1930
+4,WC-1930,1930 FIFA World Cup,T-09,Brazil,BRA,2,group stage,1930
+5,WC-1930,1930 FIFA World Cup,T-13,Chile,CHL,3,group stage,1930
+6,WC-1930,1930 FIFA World Cup,T-28,France,FRA,3,group stage,1930
+7,WC-1930,1930 FIFA World Cup,T-44,Mexico,MEX,3,group stage,1930
+8,WC-1930,1930 FIFA World Cup,T-53,Paraguay,PRY,2,group stage,1930
+9,WC-1930,1930 FIFA World Cup,T-54,Peru,PER,2,group stage,1930
+10,WC-1930,1930 FIFA World Cup,T-58,Romania,ROU,2,group stage,1930
+11,WC-1930,1930 FIFA World Cup,T-79,United States,USA,3,semi-finals,1930
+12,WC-1930,1930 FIFA World Cup,T-80,Uruguay,URY,4,final,1930
+13,WC-1930,1930 FIFA World Cup,T-83,Yugoslavia,YUG,3,semi-finals,1930
+14,WC-1934,1934 FIFA World Cup,T-03,Argentina,ARG,1,round of 16,1934
+15,WC-1934,1934 FIFA World Cup,T-05,Austria,AUT,4,third-place match,1934
+16,WC-1934,1934 FIFA World Cup,T-06,Belgium,BEL,1,round of 16,1934
+17,WC-1934,1934 FIFA World Cup,T-09,Brazil,BRA,1,round of 16,1934
+18,WC-1934,1934 FIFA World Cup,T-20,Czechoslovakia,CSK,4,final,1934
+19,WC-1934,1934 FIFA World Cup,T-25,Egypt,EGY,1,round of 16,1934
+20,WC-1934,1934 FIFA World Cup,T-28,France,FRA,1,round of 16,1934
+21,WC-1934,1934 FIFA World Cup,T-29,Germany,DEU,4,third-place match,1934
+22,WC-1934,1934 FIFA World Cup,T-34,Hungary,HUN,2,quarter-finals,1934
+23,WC-1934,1934 FIFA World Cup,T-39,Italy,ITA,5,final,1934
+24,WC-1934,1934 FIFA World Cup,T-46,Netherlands,NLD,1,round of 16,1934
+25,WC-1934,1934 FIFA World Cup,T-58,Romania,ROU,1,round of 16,1934
+26,WC-1934,1934 FIFA World Cup,T-70,Spain,ESP,3,quarter-finals,1934
+27,WC-1934,1934 FIFA World Cup,T-71,Sweden,SWE,2,quarter-finals,1934
+28,WC-1934,1934 FIFA World Cup,T-72,Switzerland,CHE,2,quarter-finals,1934
+29,WC-1934,1934 FIFA World Cup,T-79,United States,USA,1,round of 16,1934
+30,WC-1938,1938 FIFA World Cup,T-06,Belgium,BEL,1,round of 16,1938
+31,WC-1938,1938 FIFA World Cup,T-09,Brazil,BRA,5,third-place match,1938
+32,WC-1938,1938 FIFA World Cup,T-18,Cuba,CUB,3,quarter-finals,1938
+33,WC-1938,1938 FIFA World Cup,T-20,Czechoslovakia,CSK,3,quarter-finals,1938
+34,WC-1938,1938 FIFA World Cup,T-22,Dutch East Indies,IDN,1,round of 16,1938
+35,WC-1938,1938 FIFA World Cup,T-28,France,FRA,2,quarter-finals,1938
+36,WC-1938,1938 FIFA World Cup,T-29,Germany,DEU,2,round of 16,1938
+37,WC-1938,1938 FIFA World Cup,T-34,Hungary,HUN,4,final,1938
+38,WC-1938,1938 FIFA World Cup,T-39,Italy,ITA,4,final,1938
+39,WC-1938,1938 FIFA World Cup,T-46,Netherlands,NLD,1,round of 16,1938
+40,WC-1938,1938 FIFA World Cup,T-51,Norway,NOR,1,round of 16,1938
+41,WC-1938,1938 FIFA World Cup,T-55,Poland,POL,1,round of 16,1938
+42,WC-1938,1938 FIFA World Cup,T-58,Romania,ROU,2,round of 16,1938
+43,WC-1938,1938 FIFA World Cup,T-71,Sweden,SWE,3,third-place match,1938
+44,WC-1938,1938 FIFA World Cup,T-72,Switzerland,CHE,3,quarter-finals,1938
+45,WC-1950,1950 FIFA World Cup,T-07,Bolivia,BOL,1,group stage,1950
+46,WC-1950,1950 FIFA World Cup,T-09,Brazil,BRA,6,final round,1950
+47,WC-1950,1950 FIFA World Cup,T-13,Chile,CHL,3,group stage,1950
+48,WC-1950,1950 FIFA World Cup,T-27,England,ENG,3,group stage,1950
+49,WC-1950,1950 FIFA World Cup,T-39,Italy,ITA,2,group stage,1950
+50,WC-1950,1950 FIFA World Cup,T-44,Mexico,MEX,3,group stage,1950
+51,WC-1950,1950 FIFA World Cup,T-53,Paraguay,PRY,2,group stage,1950
+52,WC-1950,1950 FIFA World Cup,T-70,Spain,ESP,6,final round,1950
+53,WC-1950,1950 FIFA World Cup,T-71,Sweden,SWE,5,final round,1950
+54,WC-1950,1950 FIFA World Cup,T-72,Switzerland,CHE,3,group stage,1950
+55,WC-1950,1950 FIFA World Cup,T-79,United States,USA,3,group stage,1950
+56,WC-1950,1950 FIFA World Cup,T-80,Uruguay,URY,4,final round,1950
+57,WC-1950,1950 FIFA World Cup,T-83,Yugoslavia,YUG,3,group stage,1950
+58,WC-1954,1954 FIFA World Cup,T-05,Austria,AUT,5,third-place match,1954
+59,WC-1954,1954 FIFA World Cup,T-06,Belgium,BEL,2,group stage,1954
+60,WC-1954,1954 FIFA World Cup,T-09,Brazil,BRA,3,quarter-finals,1954
+61,WC-1954,1954 FIFA World Cup,T-20,Czechoslovakia,CSK,2,group stage,1954
+62,WC-1954,1954 FIFA World Cup,T-27,England,ENG,3,quarter-finals,1954
+63,WC-1954,1954 FIFA World Cup,T-28,France,FRA,2,group stage,1954
+64,WC-1954,1954 FIFA World Cup,T-34,Hungary,HUN,5,final,1954
+65,WC-1954,1954 FIFA World Cup,T-39,Italy,ITA,3,group stage,1954
+66,WC-1954,1954 FIFA World Cup,T-44,Mexico,MEX,2,group stage,1954
+67,WC-1954,1954 FIFA World Cup,T-61,Scotland,SCO,2,group stage,1954
+68,WC-1954,1954 FIFA World Cup,T-68,South Korea,KOR,2,group stage,1954
+69,WC-1954,1954 FIFA World Cup,T-72,Switzerland,CHE,4,quarter-finals,1954
+70,WC-1954,1954 FIFA World Cup,T-76,Turkey,TUR,3,group stage,1954
+71,WC-1954,1954 FIFA World Cup,T-80,Uruguay,URY,5,third-place match,1954
+72,WC-1954,1954 FIFA World Cup,T-82,Germany,DEU,6,final,1954
+73,WC-1954,1954 FIFA World Cup,T-83,Yugoslavia,YUG,3,quarter-finals,1954
+74,WC-1958,1958 FIFA World Cup,T-03,Argentina,ARG,3,group stage,1958
+75,WC-1958,1958 FIFA World Cup,T-05,Austria,AUT,3,group stage,1958
+76,WC-1958,1958 FIFA World Cup,T-09,Brazil,BRA,6,final,1958
+77,WC-1958,1958 FIFA World Cup,T-20,Czechoslovakia,CSK,4,group stage,1958
+78,WC-1958,1958 FIFA World Cup,T-27,England,ENG,4,group stage,1958
+79,WC-1958,1958 FIFA World Cup,T-28,France,FRA,6,third-place match,1958
+80,WC-1958,1958 FIFA World Cup,T-34,Hungary,HUN,4,group stage,1958
+81,WC-1958,1958 FIFA World Cup,T-44,Mexico,MEX,3,group stage,1958
+82,WC-1958,1958 FIFA World Cup,T-50,Northern Ireland,NIR,5,quarter-finals,1958
+83,WC-1958,1958 FIFA World Cup,T-53,Paraguay,PRY,3,group stage,1958
+84,WC-1958,1958 FIFA World Cup,T-61,Scotland,SCO,3,group stage,1958
+85,WC-1958,1958 FIFA World Cup,T-69,Soviet Union,SUN,5,quarter-finals,1958
+86,WC-1958,1958 FIFA World Cup,T-71,Sweden,SWE,6,final,1958
+87,WC-1958,1958 FIFA World Cup,T-81,Wales,WAL,5,quarter-finals,1958
+88,WC-1958,1958 FIFA World Cup,T-82,Germany,DEU,6,third-place match,1958
+89,WC-1958,1958 FIFA World Cup,T-83,Yugoslavia,YUG,4,quarter-finals,1958
+90,WC-1962,1962 FIFA World Cup,T-03,Argentina,ARG,3,group stage,1962
+91,WC-1962,1962 FIFA World Cup,T-09,Brazil,BRA,6,final,1962
+92,WC-1962,1962 FIFA World Cup,T-10,Bulgaria,BGR,3,group stage,1962
+93,WC-1962,1962 FIFA World Cup,T-13,Chile,CHL,6,third-place match,1962
+94,WC-1962,1962 FIFA World Cup,T-15,Colombia,COL,3,group stage,1962
+95,WC-1962,1962 FIFA World Cup,T-20,Czechoslovakia,CSK,6,final,1962
+96,WC-1962,1962 FIFA World Cup,T-27,England,ENG,4,quarter-finals,1962
+97,WC-1962,1962 FIFA World Cup,T-34,Hungary,HUN,4,quarter-finals,1962
+98,WC-1962,1962 FIFA World Cup,T-39,Italy,ITA,3,group stage,1962
+99,WC-1962,1962 FIFA World Cup,T-44,Mexico,MEX,3,group stage,1962
+100,WC-1962,1962 FIFA World Cup,T-69,Soviet Union,SUN,4,quarter-finals,1962
+101,WC-1962,1962 FIFA World Cup,T-70,Spain,ESP,3,group stage,1962
+102,WC-1962,1962 FIFA World Cup,T-72,Switzerland,CHE,3,group stage,1962
+103,WC-1962,1962 FIFA World Cup,T-80,Uruguay,URY,3,group stage,1962
+104,WC-1962,1962 FIFA World Cup,T-82,Germany,DEU,4,quarter-finals,1962
+105,WC-1962,1962 FIFA World Cup,T-83,Yugoslavia,YUG,6,third-place match,1962
+106,WC-1966,1966 FIFA World Cup,T-03,Argentina,ARG,4,quarter-finals,1966
+107,WC-1966,1966 FIFA World Cup,T-09,Brazil,BRA,3,group stage,1966
+108,WC-1966,1966 FIFA World Cup,T-10,Bulgaria,BGR,3,group stage,1966
+109,WC-1966,1966 FIFA World Cup,T-13,Chile,CHL,3,group stage,1966
+110,WC-1966,1966 FIFA World Cup,T-27,England,ENG,6,final,1966
+111,WC-1966,1966 FIFA World Cup,T-28,France,FRA,3,group stage,1966
+112,WC-1966,1966 FIFA World Cup,T-34,Hungary,HUN,4,quarter-finals,1966
+113,WC-1966,1966 FIFA World Cup,T-39,Italy,ITA,3,group stage,1966
+114,WC-1966,1966 FIFA World Cup,T-44,Mexico,MEX,3,group stage,1966
+115,WC-1966,1966 FIFA World Cup,T-49,North Korea,PRK,4,quarter-finals,1966
+116,WC-1966,1966 FIFA World Cup,T-56,Portugal,PRT,6,third-place match,1966
+117,WC-1966,1966 FIFA World Cup,T-69,Soviet Union,SUN,6,third-place match,1966
+118,WC-1966,1966 FIFA World Cup,T-70,Spain,ESP,3,group stage,1966
+119,WC-1966,1966 FIFA World Cup,T-72,Switzerland,CHE,3,group stage,1966
+120,WC-1966,1966 FIFA World Cup,T-80,Uruguay,URY,4,quarter-finals,1966
+121,WC-1966,1966 FIFA World Cup,T-82,Germany,DEU,6,final,1966
+122,WC-1970,1970 FIFA World Cup,T-06,Belgium,BEL,3,group stage,1970
+123,WC-1970,1970 FIFA World Cup,T-09,Brazil,BRA,6,final,1970
+124,WC-1970,1970 FIFA World Cup,T-10,Bulgaria,BGR,3,group stage,1970
+125,WC-1970,1970 FIFA World Cup,T-20,Czechoslovakia,CSK,3,group stage,1970
+126,WC-1970,1970 FIFA World Cup,T-26,El Salvador,SLV,3,group stage,1970
+127,WC-1970,1970 FIFA World Cup,T-27,England,ENG,4,quarter-finals,1970
+128,WC-1970,1970 FIFA World Cup,T-38,Israel,ISR,3,group stage,1970
+129,WC-1970,1970 FIFA World Cup,T-39,Italy,ITA,6,final,1970
+130,WC-1970,1970 FIFA World Cup,T-44,Mexico,MEX,4,quarter-finals,1970
+131,WC-1970,1970 FIFA World Cup,T-45,Morocco,MAR,3,group stage,1970
+132,WC-1970,1970 FIFA World Cup,T-54,Peru,PER,4,quarter-finals,1970
+133,WC-1970,1970 FIFA World Cup,T-58,Romania,ROU,3,group stage,1970
+134,WC-1970,1970 FIFA World Cup,T-69,Soviet Union,SUN,4,quarter-finals,1970
+135,WC-1970,1970 FIFA World Cup,T-71,Sweden,SWE,3,group stage,1970
+136,WC-1970,1970 FIFA World Cup,T-80,Uruguay,URY,6,third-place match,1970
+137,WC-1970,1970 FIFA World Cup,T-82,Germany,DEU,6,third-place match,1970
+138,WC-1974,1974 FIFA World Cup,T-03,Argentina,ARG,6,second group stage,1974
+139,WC-1974,1974 FIFA World Cup,T-04,Australia,AUS,3,group stage,1974
+140,WC-1974,1974 FIFA World Cup,T-09,Brazil,BRA,7,third-place match,1974
+141,WC-1974,1974 FIFA World Cup,T-10,Bulgaria,BGR,3,group stage,1974
+142,WC-1974,1974 FIFA World Cup,T-13,Chile,CHL,3,group stage,1974
+143,WC-1974,1974 FIFA World Cup,T-23,Germany,DDR,6,second group stage,1974
+144,WC-1974,1974 FIFA World Cup,T-32,Haiti,HTI,3,group stage,1974
+145,WC-1974,1974 FIFA World Cup,T-39,Italy,ITA,3,group stage,1974
+146,WC-1974,1974 FIFA World Cup,T-46,Netherlands,NLD,7,final,1974
+147,WC-1974,1974 FIFA World Cup,T-55,Poland,POL,7,third-place match,1974
+148,WC-1974,1974 FIFA World Cup,T-61,Scotland,SCO,3,group stage,1974
+149,WC-1974,1974 FIFA World Cup,T-71,Sweden,SWE,6,second group stage,1974
+150,WC-1974,1974 FIFA World Cup,T-80,Uruguay,URY,3,group stage,1974
+151,WC-1974,1974 FIFA World Cup,T-82,Germany,DEU,7,final,1974
+152,WC-1974,1974 FIFA World Cup,T-83,Yugoslavia,YUG,6,second group stage,1974
+153,WC-1974,1974 FIFA World Cup,T-84,Zaire,COD,3,group stage,1974
+154,WC-1978,1978 FIFA World Cup,T-03,Argentina,ARG,7,final,1978
+155,WC-1978,1978 FIFA World Cup,T-05,Austria,AUT,6,second group stage,1978
+156,WC-1978,1978 FIFA World Cup,T-09,Brazil,BRA,7,third-place match,1978
+157,WC-1978,1978 FIFA World Cup,T-28,France,FRA,3,group stage,1978
+158,WC-1978,1978 FIFA World Cup,T-34,Hungary,HUN,3,group stage,1978
+159,WC-1978,1978 FIFA World Cup,T-36,Iran,IRN,3,group stage,1978
+160,WC-1978,1978 FIFA World Cup,T-39,Italy,ITA,7,third-place match,1978
+161,WC-1978,1978 FIFA World Cup,T-44,Mexico,MEX,3,group stage,1978
+162,WC-1978,1978 FIFA World Cup,T-46,Netherlands,NLD,7,final,1978
+163,WC-1978,1978 FIFA World Cup,T-54,Peru,PER,6,second group stage,1978
+164,WC-1978,1978 FIFA World Cup,T-55,Poland,POL,6,second group stage,1978
+165,WC-1978,1978 FIFA World Cup,T-61,Scotland,SCO,3,group stage,1978
+166,WC-1978,1978 FIFA World Cup,T-70,Spain,ESP,3,group stage,1978
+167,WC-1978,1978 FIFA World Cup,T-71,Sweden,SWE,3,group stage,1978
+168,WC-1978,1978 FIFA World Cup,T-75,Tunisia,TUN,3,group stage,1978
+169,WC-1978,1978 FIFA World Cup,T-82,Germany,DEU,6,second group stage,1978
+170,WC-1982,1982 FIFA World Cup,T-01,Algeria,DZA,3,group stage,1982
+171,WC-1982,1982 FIFA World Cup,T-03,Argentina,ARG,5,second group stage,1982
+172,WC-1982,1982 FIFA World Cup,T-05,Austria,AUT,5,second group stage,1982
+173,WC-1982,1982 FIFA World Cup,T-06,Belgium,BEL,5,second group stage,1982
+174,WC-1982,1982 FIFA World Cup,T-09,Brazil,BRA,5,second group stage,1982
+175,WC-1982,1982 FIFA World Cup,T-11,Cameroon,CMR,3,group stage,1982
+176,WC-1982,1982 FIFA World Cup,T-13,Chile,CHL,3,group stage,1982
+177,WC-1982,1982 FIFA World Cup,T-20,Czechoslovakia,CSK,3,group stage,1982
+178,WC-1982,1982 FIFA World Cup,T-26,El Salvador,SLV,3,group stage,1982
+179,WC-1982,1982 FIFA World Cup,T-27,England,ENG,5,second group stage,1982
+180,WC-1982,1982 FIFA World Cup,T-28,France,FRA,7,third-place match,1982
+181,WC-1982,1982 FIFA World Cup,T-33,Honduras,HND,3,group stage,1982
+182,WC-1982,1982 FIFA World Cup,T-34,Hungary,HUN,3,group stage,1982
+183,WC-1982,1982 FIFA World Cup,T-39,Italy,ITA,7,final,1982
+184,WC-1982,1982 FIFA World Cup,T-43,Kuwait,KWT,3,group stage,1982
+185,WC-1982,1982 FIFA World Cup,T-47,New Zealand,NZL,3,group stage,1982
+186,WC-1982,1982 FIFA World Cup,T-50,Northern Ireland,NIR,5,second group stage,1982
+187,WC-1982,1982 FIFA World Cup,T-54,Peru,PER,3,group stage,1982
+188,WC-1982,1982 FIFA World Cup,T-55,Poland,POL,7,third-place match,1982
+189,WC-1982,1982 FIFA World Cup,T-61,Scotland,SCO,3,group stage,1982
+190,WC-1982,1982 FIFA World Cup,T-69,Soviet Union,SUN,5,second group stage,1982
+191,WC-1982,1982 FIFA World Cup,T-70,Spain,ESP,5,second group stage,1982
+192,WC-1982,1982 FIFA World Cup,T-82,Germany,DEU,7,final,1982
+193,WC-1982,1982 FIFA World Cup,T-83,Yugoslavia,YUG,3,group stage,1982
+194,WC-1986,1986 FIFA World Cup,T-01,Algeria,DZA,3,group stage,1986
+195,WC-1986,1986 FIFA World Cup,T-03,Argentina,ARG,7,final,1986
+196,WC-1986,1986 FIFA World Cup,T-06,Belgium,BEL,7,third-place match,1986
+197,WC-1986,1986 FIFA World Cup,T-09,Brazil,BRA,5,quarter-finals,1986
+198,WC-1986,1986 FIFA World Cup,T-10,Bulgaria,BGR,4,round of 16,1986
+199,WC-1986,1986 FIFA World Cup,T-12,Canada,CAN,3,group stage,1986
+200,WC-1986,1986 FIFA World Cup,T-21,Denmark,DNK,4,round of 16,1986
+201,WC-1986,1986 FIFA World Cup,T-27,England,ENG,5,quarter-finals,1986
+202,WC-1986,1986 FIFA World Cup,T-28,France,FRA,7,third-place match,1986
+203,WC-1986,1986 FIFA World Cup,T-34,Hungary,HUN,3,group stage,1986
+204,WC-1986,1986 FIFA World Cup,T-37,Iraq,IRQ,3,group stage,1986
+205,WC-1986,1986 FIFA World Cup,T-39,Italy,ITA,4,round of 16,1986
+206,WC-1986,1986 FIFA World Cup,T-44,Mexico,MEX,5,quarter-finals,1986
+207,WC-1986,1986 FIFA World Cup,T-45,Morocco,MAR,4,round of 16,1986
+208,WC-1986,1986 FIFA World Cup,T-50,Northern Ireland,NIR,3,group stage,1986
+209,WC-1986,1986 FIFA World Cup,T-53,Paraguay,PRY,4,round of 16,1986
+210,WC-1986,1986 FIFA World Cup,T-55,Poland,POL,4,round of 16,1986
+211,WC-1986,1986 FIFA World Cup,T-56,Portugal,PRT,3,group stage,1986
+212,WC-1986,1986 FIFA World Cup,T-61,Scotland,SCO,3,group stage,1986
+213,WC-1986,1986 FIFA World Cup,T-68,South Korea,KOR,3,group stage,1986
+214,WC-1986,1986 FIFA World Cup,T-69,Soviet Union,SUN,4,round of 16,1986
+215,WC-1986,1986 FIFA World Cup,T-70,Spain,ESP,5,quarter-finals,1986
+216,WC-1986,1986 FIFA World Cup,T-80,Uruguay,URY,4,round of 16,1986
+217,WC-1986,1986 FIFA World Cup,T-82,Germany,DEU,7,final,1986
+218,WC-1990,1990 FIFA World Cup,T-03,Argentina,ARG,7,final,1990
+219,WC-1990,1990 FIFA World Cup,T-05,Austria,AUT,3,group stage,1990
+220,WC-1990,1990 FIFA World Cup,T-06,Belgium,BEL,4,round of 16,1990
+221,WC-1990,1990 FIFA World Cup,T-09,Brazil,BRA,4,round of 16,1990
+222,WC-1990,1990 FIFA World Cup,T-11,Cameroon,CMR,5,quarter-finals,1990
+223,WC-1990,1990 FIFA World Cup,T-15,Colombia,COL,4,round of 16,1990
+224,WC-1990,1990 FIFA World Cup,T-16,Costa Rica,CRI,4,round of 16,1990
+225,WC-1990,1990 FIFA World Cup,T-20,Czechoslovakia,CSK,5,quarter-finals,1990
+226,WC-1990,1990 FIFA World Cup,T-25,Egypt,EGY,3,group stage,1990
+227,WC-1990,1990 FIFA World Cup,T-27,England,ENG,7,third-place match,1990
+228,WC-1990,1990 FIFA World Cup,T-39,Italy,ITA,7,third-place match,1990
+229,WC-1990,1990 FIFA World Cup,T-46,Netherlands,NLD,4,round of 16,1990
+230,WC-1990,1990 FIFA World Cup,T-57,Republic of Ireland,IRL,5,quarter-finals,1990
+231,WC-1990,1990 FIFA World Cup,T-58,Romania,ROU,4,round of 16,1990
+232,WC-1990,1990 FIFA World Cup,T-61,Scotland,SCO,3,group stage,1990
+233,WC-1990,1990 FIFA World Cup,T-68,South Korea,KOR,3,group stage,1990
+234,WC-1990,1990 FIFA World Cup,T-69,Soviet Union,SUN,3,group stage,1990
+235,WC-1990,1990 FIFA World Cup,T-70,Spain,ESP,4,round of 16,1990
+236,WC-1990,1990 FIFA World Cup,T-71,Sweden,SWE,3,group stage,1990
+237,WC-1990,1990 FIFA World Cup,T-78,United Arab Emirates,ARE,3,group stage,1990
+238,WC-1990,1990 FIFA World Cup,T-79,United States,USA,3,group stage,1990
+239,WC-1990,1990 FIFA World Cup,T-80,Uruguay,URY,4,round of 16,1990
+240,WC-1990,1990 FIFA World Cup,T-82,Germany,DEU,7,final,1990
+241,WC-1990,1990 FIFA World Cup,T-83,Yugoslavia,YUG,5,quarter-finals,1990
+242,WC-1994,1994 FIFA World Cup,T-03,Argentina,ARG,4,round of 16,1994
+243,WC-1994,1994 FIFA World Cup,T-06,Belgium,BEL,4,round of 16,1994
+244,WC-1994,1994 FIFA World Cup,T-07,Bolivia,BOL,3,group stage,1994
+245,WC-1994,1994 FIFA World Cup,T-09,Brazil,BRA,7,final,1994
+246,WC-1994,1994 FIFA World Cup,T-10,Bulgaria,BGR,7,third-place match,1994
+247,WC-1994,1994 FIFA World Cup,T-11,Cameroon,CMR,3,group stage,1994
+248,WC-1994,1994 FIFA World Cup,T-15,Colombia,COL,3,group stage,1994
+249,WC-1994,1994 FIFA World Cup,T-29,Germany,DEU,5,quarter-finals,1994
+250,WC-1994,1994 FIFA World Cup,T-31,Greece,GRC,3,group stage,1994
+251,WC-1994,1994 FIFA World Cup,T-39,Italy,ITA,7,final,1994
+252,WC-1994,1994 FIFA World Cup,T-44,Mexico,MEX,4,round of 16,1994
+253,WC-1994,1994 FIFA World Cup,T-45,Morocco,MAR,3,group stage,1994
+254,WC-1994,1994 FIFA World Cup,T-46,Netherlands,NLD,5,quarter-finals,1994
+255,WC-1994,1994 FIFA World Cup,T-48,Nigeria,NGA,4,round of 16,1994
+256,WC-1994,1994 FIFA World Cup,T-51,Norway,NOR,3,group stage,1994
+257,WC-1994,1994 FIFA World Cup,T-57,Republic of Ireland,IRL,4,round of 16,1994
+258,WC-1994,1994 FIFA World Cup,T-58,Romania,ROU,5,quarter-finals,1994
+259,WC-1994,1994 FIFA World Cup,T-59,Russia,RUS,3,group stage,1994
+260,WC-1994,1994 FIFA World Cup,T-60,Saudi Arabia,SAU,4,round of 16,1994
+261,WC-1994,1994 FIFA World Cup,T-68,South Korea,KOR,3,group stage,1994
+262,WC-1994,1994 FIFA World Cup,T-70,Spain,ESP,5,quarter-finals,1994
+263,WC-1994,1994 FIFA World Cup,T-71,Sweden,SWE,7,third-place match,1994
+264,WC-1994,1994 FIFA World Cup,T-72,Switzerland,CHE,4,round of 16,1994
+265,WC-1994,1994 FIFA World Cup,T-79,United States,USA,4,round of 16,1994
+266,WC-1998,1998 FIFA World Cup,T-03,Argentina,ARG,5,quarter-finals,1998
+267,WC-1998,1998 FIFA World Cup,T-05,Austria,AUT,3,group stage,1998
+268,WC-1998,1998 FIFA World Cup,T-06,Belgium,BEL,3,group stage,1998
+269,WC-1998,1998 FIFA World Cup,T-09,Brazil,BRA,7,final,1998
+270,WC-1998,1998 FIFA World Cup,T-10,Bulgaria,BGR,3,group stage,1998
+271,WC-1998,1998 FIFA World Cup,T-11,Cameroon,CMR,3,group stage,1998
+272,WC-1998,1998 FIFA World Cup,T-13,Chile,CHL,4,round of 16,1998
+273,WC-1998,1998 FIFA World Cup,T-15,Colombia,COL,3,group stage,1998
+274,WC-1998,1998 FIFA World Cup,T-17,Croatia,HRV,7,third-place match,1998
+275,WC-1998,1998 FIFA World Cup,T-21,Denmark,DNK,5,quarter-finals,1998
+276,WC-1998,1998 FIFA World Cup,T-27,England,ENG,4,round of 16,1998
+277,WC-1998,1998 FIFA World Cup,T-28,France,FRA,7,final,1998
+278,WC-1998,1998 FIFA World Cup,T-29,Germany,DEU,5,quarter-finals,1998
+279,WC-1998,1998 FIFA World Cup,T-36,Iran,IRN,3,group stage,1998
+280,WC-1998,1998 FIFA World Cup,T-39,Italy,ITA,5,quarter-finals,1998
+281,WC-1998,1998 FIFA World Cup,T-41,Jamaica,JAM,3,group stage,1998
+282,WC-1998,1998 FIFA World Cup,T-42,Japan,JPN,3,group stage,1998
+283,WC-1998,1998 FIFA World Cup,T-44,Mexico,MEX,4,round of 16,1998
+284,WC-1998,1998 FIFA World Cup,T-45,Morocco,MAR,3,group stage,1998
+285,WC-1998,1998 FIFA World Cup,T-46,Netherlands,NLD,7,third-place match,1998
+286,WC-1998,1998 FIFA World Cup,T-48,Nigeria,NGA,4,round of 16,1998
+287,WC-1998,1998 FIFA World Cup,T-51,Norway,NOR,4,round of 16,1998
+288,WC-1998,1998 FIFA World Cup,T-53,Paraguay,PRY,4,round of 16,1998
+289,WC-1998,1998 FIFA World Cup,T-58,Romania,ROU,4,round of 16,1998
+290,WC-1998,1998 FIFA World Cup,T-60,Saudi Arabia,SAU,3,group stage,1998
+291,WC-1998,1998 FIFA World Cup,T-61,Scotland,SCO,3,group stage,1998
+292,WC-1998,1998 FIFA World Cup,T-67,South Africa,ZAF,3,group stage,1998
+293,WC-1998,1998 FIFA World Cup,T-68,South Korea,KOR,3,group stage,1998
+294,WC-1998,1998 FIFA World Cup,T-70,Spain,ESP,3,group stage,1998
+295,WC-1998,1998 FIFA World Cup,T-75,Tunisia,TUN,3,group stage,1998
+296,WC-1998,1998 FIFA World Cup,T-79,United States,USA,3,group stage,1998
+297,WC-1998,1998 FIFA World Cup,T-83,Yugoslavia,YUG,4,round of 16,1998
+298,WC-2002,2002 FIFA World Cup,T-03,Argentina,ARG,3,group stage,2002
+299,WC-2002,2002 FIFA World Cup,T-06,Belgium,BEL,4,round of 16,2002
+300,WC-2002,2002 FIFA World Cup,T-09,Brazil,BRA,7,final,2002
+301,WC-2002,2002 FIFA World Cup,T-11,Cameroon,CMR,3,group stage,2002
+302,WC-2002,2002 FIFA World Cup,T-14,China,CHN,3,group stage,2002
+303,WC-2002,2002 FIFA World Cup,T-16,Costa Rica,CRI,3,group stage,2002
+304,WC-2002,2002 FIFA World Cup,T-17,Croatia,HRV,3,group stage,2002
+305,WC-2002,2002 FIFA World Cup,T-21,Denmark,DNK,4,round of 16,2002
+306,WC-2002,2002 FIFA World Cup,T-24,Ecuador,ECU,3,group stage,2002
+307,WC-2002,2002 FIFA World Cup,T-27,England,ENG,5,quarter-finals,2002
+308,WC-2002,2002 FIFA World Cup,T-28,France,FRA,3,group stage,2002
+309,WC-2002,2002 FIFA World Cup,T-29,Germany,DEU,7,final,2002
+310,WC-2002,2002 FIFA World Cup,T-39,Italy,ITA,4,round of 16,2002
+311,WC-2002,2002 FIFA World Cup,T-42,Japan,JPN,4,round of 16,2002
+312,WC-2002,2002 FIFA World Cup,T-44,Mexico,MEX,4,round of 16,2002
+313,WC-2002,2002 FIFA World Cup,T-48,Nigeria,NGA,3,group stage,2002
+314,WC-2002,2002 FIFA World Cup,T-53,Paraguay,PRY,4,round of 16,2002
+315,WC-2002,2002 FIFA World Cup,T-55,Poland,POL,3,group stage,2002
+316,WC-2002,2002 FIFA World Cup,T-56,Portugal,PRT,3,group stage,2002
+317,WC-2002,2002 FIFA World Cup,T-57,Republic of Ireland,IRL,4,round of 16,2002
+318,WC-2002,2002 FIFA World Cup,T-59,Russia,RUS,3,group stage,2002
+319,WC-2002,2002 FIFA World Cup,T-60,Saudi Arabia,SAU,3,group stage,2002
+320,WC-2002,2002 FIFA World Cup,T-62,Senegal,SEN,5,quarter-finals,2002
+321,WC-2002,2002 FIFA World Cup,T-66,Slovenia,SVN,3,group stage,2002
+322,WC-2002,2002 FIFA World Cup,T-67,South Africa,ZAF,3,group stage,2002
+323,WC-2002,2002 FIFA World Cup,T-68,South Korea,KOR,7,third-place match,2002
+324,WC-2002,2002 FIFA World Cup,T-70,Spain,ESP,5,quarter-finals,2002
+325,WC-2002,2002 FIFA World Cup,T-71,Sweden,SWE,4,round of 16,2002
+326,WC-2002,2002 FIFA World Cup,T-75,Tunisia,TUN,3,group stage,2002
+327,WC-2002,2002 FIFA World Cup,T-76,Turkey,TUR,7,third-place match,2002
+328,WC-2002,2002 FIFA World Cup,T-79,United States,USA,5,quarter-finals,2002
+329,WC-2002,2002 FIFA World Cup,T-80,Uruguay,URY,3,group stage,2002
+330,WC-2006,2006 FIFA World Cup,T-02,Angola,AGO,3,group stage,2006
+331,WC-2006,2006 FIFA World Cup,T-03,Argentina,ARG,5,quarter-finals,2006
+332,WC-2006,2006 FIFA World Cup,T-04,Australia,AUS,4,round of 16,2006
+333,WC-2006,2006 FIFA World Cup,T-09,Brazil,BRA,5,quarter-finals,2006
+334,WC-2006,2006 FIFA World Cup,T-16,Costa Rica,CRI,3,group stage,2006
+335,WC-2006,2006 FIFA World Cup,T-17,Croatia,HRV,3,group stage,2006
+336,WC-2006,2006 FIFA World Cup,T-19,Czech Republic,CZE,3,group stage,2006
+337,WC-2006,2006 FIFA World Cup,T-24,Ecuador,ECU,4,round of 16,2006
+338,WC-2006,2006 FIFA World Cup,T-27,England,ENG,5,quarter-finals,2006
+339,WC-2006,2006 FIFA World Cup,T-28,France,FRA,7,final,2006
+340,WC-2006,2006 FIFA World Cup,T-29,Germany,DEU,7,third-place match,2006
+341,WC-2006,2006 FIFA World Cup,T-30,Ghana,GHA,4,round of 16,2006
+342,WC-2006,2006 FIFA World Cup,T-36,Iran,IRN,3,group stage,2006
+343,WC-2006,2006 FIFA World Cup,T-39,Italy,ITA,7,final,2006
+344,WC-2006,2006 FIFA World Cup,T-40,Ivory Coast,CIV,3,group stage,2006
+345,WC-2006,2006 FIFA World Cup,T-42,Japan,JPN,3,group stage,2006
+346,WC-2006,2006 FIFA World Cup,T-44,Mexico,MEX,4,round of 16,2006
+347,WC-2006,2006 FIFA World Cup,T-46,Netherlands,NLD,4,round of 16,2006
+348,WC-2006,2006 FIFA World Cup,T-53,Paraguay,PRY,3,group stage,2006
+349,WC-2006,2006 FIFA World Cup,T-55,Poland,POL,3,group stage,2006
+350,WC-2006,2006 FIFA World Cup,T-56,Portugal,PRT,7,third-place match,2006
+351,WC-2006,2006 FIFA World Cup,T-60,Saudi Arabia,SAU,3,group stage,2006
+352,WC-2006,2006 FIFA World Cup,T-64,Serbia and Montenegro,SCG,3,group stage,2006
+353,WC-2006,2006 FIFA World Cup,T-68,South Korea,KOR,3,group stage,2006
+354,WC-2006,2006 FIFA World Cup,T-70,Spain,ESP,4,round of 16,2006
+355,WC-2006,2006 FIFA World Cup,T-71,Sweden,SWE,4,round of 16,2006
+356,WC-2006,2006 FIFA World Cup,T-72,Switzerland,CHE,4,round of 16,2006
+357,WC-2006,2006 FIFA World Cup,T-73,Togo,TGO,3,group stage,2006
+358,WC-2006,2006 FIFA World Cup,T-74,Trinidad and Tobago,TTO,3,group stage,2006
+359,WC-2006,2006 FIFA World Cup,T-75,Tunisia,TUN,3,group stage,2006
+360,WC-2006,2006 FIFA World Cup,T-77,Ukraine,UKR,5,quarter-finals,2006
+361,WC-2006,2006 FIFA World Cup,T-79,United States,USA,3,group stage,2006
+362,WC-2010,2010 FIFA World Cup,T-01,Algeria,DZA,3,group stage,2010
+363,WC-2010,2010 FIFA World Cup,T-03,Argentina,ARG,5,quarter-finals,2010
+364,WC-2010,2010 FIFA World Cup,T-04,Australia,AUS,3,group stage,2010
+365,WC-2010,2010 FIFA World Cup,T-09,Brazil,BRA,5,quarter-finals,2010
+366,WC-2010,2010 FIFA World Cup,T-11,Cameroon,CMR,3,group stage,2010
+367,WC-2010,2010 FIFA World Cup,T-13,Chile,CHL,4,round of 16,2010
+368,WC-2010,2010 FIFA World Cup,T-21,Denmark,DNK,3,group stage,2010
+369,WC-2010,2010 FIFA World Cup,T-27,England,ENG,4,round of 16,2010
+370,WC-2010,2010 FIFA World Cup,T-28,France,FRA,3,group stage,2010
+371,WC-2010,2010 FIFA World Cup,T-29,Germany,DEU,7,third-place match,2010
+372,WC-2010,2010 FIFA World Cup,T-30,Ghana,GHA,5,quarter-finals,2010
+373,WC-2010,2010 FIFA World Cup,T-31,Greece,GRC,3,group stage,2010
+374,WC-2010,2010 FIFA World Cup,T-33,Honduras,HND,3,group stage,2010
+375,WC-2010,2010 FIFA World Cup,T-39,Italy,ITA,3,group stage,2010
+376,WC-2010,2010 FIFA World Cup,T-40,Ivory Coast,CIV,3,group stage,2010
+377,WC-2010,2010 FIFA World Cup,T-42,Japan,JPN,4,round of 16,2010
+378,WC-2010,2010 FIFA World Cup,T-44,Mexico,MEX,4,round of 16,2010
+379,WC-2010,2010 FIFA World Cup,T-46,Netherlands,NLD,7,final,2010
+380,WC-2010,2010 FIFA World Cup,T-47,New Zealand,NZL,3,group stage,2010
+381,WC-2010,2010 FIFA World Cup,T-48,Nigeria,NGA,3,group stage,2010
+382,WC-2010,2010 FIFA World Cup,T-49,North Korea,PRK,3,group stage,2010
+383,WC-2010,2010 FIFA World Cup,T-53,Paraguay,PRY,5,quarter-finals,2010
+384,WC-2010,2010 FIFA World Cup,T-56,Portugal,PRT,4,round of 16,2010
+385,WC-2010,2010 FIFA World Cup,T-63,Serbia,SRB,3,group stage,2010
+386,WC-2010,2010 FIFA World Cup,T-65,Slovakia,SVK,4,round of 16,2010
+387,WC-2010,2010 FIFA World Cup,T-66,Slovenia,SVN,3,group stage,2010
+388,WC-2010,2010 FIFA World Cup,T-67,South Africa,ZAF,3,group stage,2010
+389,WC-2010,2010 FIFA World Cup,T-68,South Korea,KOR,4,round of 16,2010
+390,WC-2010,2010 FIFA World Cup,T-70,Spain,ESP,7,final,2010
+391,WC-2010,2010 FIFA World Cup,T-72,Switzerland,CHE,3,group stage,2010
+392,WC-2010,2010 FIFA World Cup,T-79,United States,USA,4,round of 16,2010
+393,WC-2010,2010 FIFA World Cup,T-80,Uruguay,URY,7,third-place match,2010
+394,WC-2014,2014 FIFA World Cup,T-01,Algeria,DZA,4,round of 16,2014
+395,WC-2014,2014 FIFA World Cup,T-03,Argentina,ARG,7,final,2014
+396,WC-2014,2014 FIFA World Cup,T-04,Australia,AUS,3,group stage,2014
+397,WC-2014,2014 FIFA World Cup,T-06,Belgium,BEL,5,quarter-finals,2014
+398,WC-2014,2014 FIFA World Cup,T-08,Bosnia and Herzegovina,BIH,3,group stage,2014
+399,WC-2014,2014 FIFA World Cup,T-09,Brazil,BRA,7,third-place match,2014
+400,WC-2014,2014 FIFA World Cup,T-11,Cameroon,CMR,3,group stage,2014
+401,WC-2014,2014 FIFA World Cup,T-13,Chile,CHL,4,round of 16,2014
+402,WC-2014,2014 FIFA World Cup,T-15,Colombia,COL,5,quarter-finals,2014
+403,WC-2014,2014 FIFA World Cup,T-16,Costa Rica,CRI,5,quarter-finals,2014
+404,WC-2014,2014 FIFA World Cup,T-17,Croatia,HRV,3,group stage,2014
+405,WC-2014,2014 FIFA World Cup,T-24,Ecuador,ECU,3,group stage,2014
+406,WC-2014,2014 FIFA World Cup,T-27,England,ENG,3,group stage,2014
+407,WC-2014,2014 FIFA World Cup,T-28,France,FRA,5,quarter-finals,2014
+408,WC-2014,2014 FIFA World Cup,T-29,Germany,DEU,7,final,2014
+409,WC-2014,2014 FIFA World Cup,T-30,Ghana,GHA,3,group stage,2014
+410,WC-2014,2014 FIFA World Cup,T-31,Greece,GRC,4,round of 16,2014
+411,WC-2014,2014 FIFA World Cup,T-33,Honduras,HND,3,group stage,2014
+412,WC-2014,2014 FIFA World Cup,T-36,Iran,IRN,3,group stage,2014
+413,WC-2014,2014 FIFA World Cup,T-39,Italy,ITA,3,group stage,2014
+414,WC-2014,2014 FIFA World Cup,T-40,Ivory Coast,CIV,3,group stage,2014
+415,WC-2014,2014 FIFA World Cup,T-42,Japan,JPN,3,group stage,2014
+416,WC-2014,2014 FIFA World Cup,T-44,Mexico,MEX,4,round of 16,2014
+417,WC-2014,2014 FIFA World Cup,T-46,Netherlands,NLD,7,third-place match,2014
+418,WC-2014,2014 FIFA World Cup,T-48,Nigeria,NGA,4,round of 16,2014
+419,WC-2014,2014 FIFA World Cup,T-56,Portugal,PRT,3,group stage,2014
+420,WC-2014,2014 FIFA World Cup,T-59,Russia,RUS,3,group stage,2014
+421,WC-2014,2014 FIFA World Cup,T-68,South Korea,KOR,3,group stage,2014
+422,WC-2014,2014 FIFA World Cup,T-70,Spain,ESP,3,group stage,2014
+423,WC-2014,2014 FIFA World Cup,T-72,Switzerland,CHE,4,round of 16,2014
+424,WC-2014,2014 FIFA World Cup,T-79,United States,USA,4,round of 16,2014
+425,WC-2014,2014 FIFA World Cup,T-80,Uruguay,URY,4,round of 16,2014
+426,WC-2018,2018 FIFA World Cup,T-03,Argentina,ARG,4,round of 16,2018
+427,WC-2018,2018 FIFA World Cup,T-04,Australia,AUS,3,group stage,2018
+428,WC-2018,2018 FIFA World Cup,T-06,Belgium,BEL,7,third-place match,2018
+429,WC-2018,2018 FIFA World Cup,T-09,Brazil,BRA,5,quarter-finals,2018
+430,WC-2018,2018 FIFA World Cup,T-15,Colombia,COL,4,round of 16,2018
+431,WC-2018,2018 FIFA World Cup,T-16,Costa Rica,CRI,3,group stage,2018
+432,WC-2018,2018 FIFA World Cup,T-17,Croatia,HRV,7,final,2018
+433,WC-2018,2018 FIFA World Cup,T-21,Denmark,DNK,4,round of 16,2018
+434,WC-2018,2018 FIFA World Cup,T-25,Egypt,EGY,3,group stage,2018
+435,WC-2018,2018 FIFA World Cup,T-27,England,ENG,7,third-place match,2018
+436,WC-2018,2018 FIFA World Cup,T-28,France,FRA,7,final,2018
+437,WC-2018,2018 FIFA World Cup,T-29,Germany,DEU,3,group stage,2018
+438,WC-2018,2018 FIFA World Cup,T-35,Iceland,ISL,3,group stage,2018
+439,WC-2018,2018 FIFA World Cup,T-36,Iran,IRN,3,group stage,2018
+440,WC-2018,2018 FIFA World Cup,T-42,Japan,JPN,4,round of 16,2018
+441,WC-2018,2018 FIFA World Cup,T-44,Mexico,MEX,4,round of 16,2018
+442,WC-2018,2018 FIFA World Cup,T-45,Morocco,MAR,3,group stage,2018
+443,WC-2018,2018 FIFA World Cup,T-48,Nigeria,NGA,3,group stage,2018
+444,WC-2018,2018 FIFA World Cup,T-52,Panama,PAN,3,group stage,2018
+445,WC-2018,2018 FIFA World Cup,T-54,Peru,PER,3,group stage,2018
+446,WC-2018,2018 FIFA World Cup,T-55,Poland,POL,3,group stage,2018
+447,WC-2018,2018 FIFA World Cup,T-56,Portugal,PRT,4,round of 16,2018
+448,WC-2018,2018 FIFA World Cup,T-59,Russia,RUS,5,quarter-finals,2018
+449,WC-2018,2018 FIFA World Cup,T-60,Saudi Arabia,SAU,3,group stage,2018
+450,WC-2018,2018 FIFA World Cup,T-62,Senegal,SEN,3,group stage,2018
+451,WC-2018,2018 FIFA World Cup,T-63,Serbia,SRB,3,group stage,2018
+452,WC-2018,2018 FIFA World Cup,T-68,South Korea,KOR,3,group stage,2018
+453,WC-2018,2018 FIFA World Cup,T-70,Spain,ESP,4,round of 16,2018
+454,WC-2018,2018 FIFA World Cup,T-71,Sweden,SWE,5,quarter-finals,2018
+455,WC-2018,2018 FIFA World Cup,T-72,Switzerland,CHE,4,round of 16,2018
+456,WC-2018,2018 FIFA World Cup,T-75,Tunisia,TUN,3,group stage,2018
+457,WC-2018,2018 FIFA World Cup,T-80,Uruguay,URY,5,quarter-finals,2018
