@@ -1,13 +1,7 @@
 import dash
 import dash_bootstrap_components as dbc
 from dash import dcc, html, callback
-from dash.dependencies import Input, Output
 import pandas as pd
-from components import Footer
-from components.NavbarVertical import sidebar
-from pages.about import about_page_content
-from pages.team_analysis import team_analysis_page_content
-from pages.worldcup_analysis import worldcup_page_content
 
 # RAW
 
