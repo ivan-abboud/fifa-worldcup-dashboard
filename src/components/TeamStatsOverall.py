@@ -144,26 +144,26 @@ TeamStatsOverall = dbc.Row(children=[
 ])
 
 
-@callback(
-    Output("winning-times-text", "children"),
-    Output("winning-years-text", "children"),
-    Output("participation-text","children"),
-    Output("matches-count-text" , "children"),
-    Input("query-team-select", "value"),
-)
-def update_team_stats(query_team):
+# @callback(
+#     Output("winning-times-text", "children"),
+#     Output("winning-years-text", "children"),
+#     Output("participation-text","children"),
+#     Output("matches-count-text" , "children"),
+#     Input("query-team-select", "value"),
+# )
+# def update_team_stats(query_team):
 
-    matches_count = team_stats.loc[team_stats.team_name ==
-                                   query_team]["count_matches"].values[0]
-    winning_times = team_stats.loc[team_stats.team_name ==
-                                   query_team]["winning_times"].values[0]
-    participation_count = team_stats.loc[team_stats.team_name ==
-                                         query_team]["participations"].values[0]
+#     matches_count = team_stats.loc[team_stats.team_name ==
+#                                    query_team]["count_matches"].values[0]
+#     winning_times = team_stats.loc[team_stats.team_name ==
+#                                    query_team]["winning_times"].values[0]
+#     participation_count = team_stats.loc[team_stats.team_name ==
+#                                          query_team]["participations"].values[0]
 
-    winning_years = "- ".join(tours.loc[tours.winner ==
-                                        query_team, "year"].values.astype("str"))
-                                        
-    return winning_times, winning_years, participation_count, matches_count
+#     winning_years = "- ".join(tours.loc[tours.winner ==
+#                                         query_team, "year"].values.astype("str"))
+
+#     return winning_times, winning_years, participation_count, matches_count
 
 
 @callback(
@@ -173,6 +173,12 @@ def update_team_stats(query_team):
     Output("team-flag-main", "src"),
     Output("query-team-wiki-link", "href"),
     Output("query-team-wiki-link", "children"),
+
+    Output("winning-times-text", "children"),
+    Output("winning-years-text", "children"),
+    Output("participation-text","children"),
+    Output("matches-count-text" , "children"),
+
     Input("query-team-select", "value"),
     State("teams-df", "data"),
 )
@@ -184,4 +190,16 @@ def update_team_select(query_team, teams_df):
     team_flag = f"./assets/flags/4x3/{query_team}.svg"
     wiki_link = teams_df.loc[teams_df.team_name ==
                              query_team, 'team_wikipedia_link'].values[0]
-    return team_code, team_region, team_confederation, team_flag, wiki_link, f"Read More About {query_team}"
+
+    matches_count = team_stats.loc[team_stats.team_name ==
+                                   query_team]["count_matches"].values[0]
+    winning_times = team_stats.loc[team_stats.team_name ==
+                                   query_team]["winning_times"].values[0]
+    participation_count = team_stats.loc[team_stats.team_name ==
+                                         query_team]["participations"].values[0]
+
+    winning_years = "- ".join(tours.loc[tours.winner ==
+                                        query_team, "year"].values.astype("str"))
+
+
+    return team_code, team_region, team_confederation, team_flag, wiki_link, f"Read More About {query_team}",winning_times, winning_years, participation_count, matches_count
