@@ -10,39 +10,87 @@ from dash import callback
 from utils.consts import *
 
 
-def StatsCard(icon, card_header="", card_body="", card_tail="", class_name="", card_subtitle=" ", icon_width="9rem", icon_class_name="img-fluid bx-lg"):
-    return html.Div(className="card", children=[
-                        html.Div(className="card-body", children=[
-                            html.Div(className="d-flex justify-content-between", children=[
+wc_winning_times_card = html.Div(html.Div(className="card", children=[
+    html.Div(className="card-body", children=[
+        html.Div(className="d-flex justify-content-between", children=[
+            html.Div(className="card-info w-100",
+                     children=[
+                         dls.Triangle(
+                               html.H2(className="mb-2 mt-2 card-title mb-2",
+                                       id="winning-times-text",
+                                       style={"font-size": "4.2vw"})
+                         ),
+                         html.H6(
+                             className="card-text m-0", children=["Times Winner"], style={"font-size": "1vw"}
+                         ),
+                         html.Small(
+                             className="card-text", id="winning-years-text"
+                         )
+                     ], style={"text-align": "center"}),
 
-                                html.Div(className="card-info w-100",
-                                         children=[html.Small(className="card-text", children=[card_header]),
+            html.Div(className="card-icon d-flex align-items-center", children=[
+                html.Img(className="img-fluid bx-lg",src="./assets/images/ic_world_cup.png", style={"width": "8rem"})
+            ]
+            )
+        ])
 
-                                                   html.H2(className="mb-2 mt-2 card-title mb-2",
-                                                           children=[
-                                                               card_body],
-                                                           style={"font-size": "4.2vw"}),
+    ])
+], style={"min-height": "12rem"}),
+    className="col-md-6 col-lg-3 mb-md-0 mb-4 card-chart-container"
+)
+
+participations_card = html.Div(html.Div(className="card", children=[
+    html.Div(className="card-body", children=[
+        html.Div(className="d-flex justify-content-between", children=[
+            html.Div(className="card-info w-100",
+                     children=[
+                         dls.Triangle(
+                               html.H2(className="mb-2 mt-2 card-title mb-2",
+                                       id="participation-text",
+                                       style={"font-size": "4.2vw"})
+                         ),
+                         html.H6(
+                             className="card-text m-0", children=["Participations"], style={"font-size": "1vw"}
+                         ),
+                     ], style={"text-align": "center"}),
+
+            html.Div(className="card-icon d-flex align-items-center", children=[
+                html.Img(className="img-fluid bx-lg",src="./assets/images/ic_stadium.png", style={"width": "8rem"})
+            ]
+            )
+        ])
+
+    ])
+], style={"min-height": "12rem"}),
+    className="col-md-6 col-lg-3 mb-md-0 mb-4 card-chart-container"
+)
 
 
-                                                   html.H6(
-                                             className="card-text m-0", children=[card_tail], style={"font-size": "1vw"}
-                                         ),
-                                             html.Small(
-                                             className="card-text", children=[card_subtitle]
-                                         )
-                                         ], style={"text-align": "center"}),
+matches_count_card = html.Div(html.Div(className="card", children=[
+    html.Div(className="card-body", children=[
+        html.Div(className="d-flex justify-content-between", children=[
+            html.Div(className="card-info w-100",
+                     children=[
+                         dls.Triangle(
+                               html.H2(className="mb-2 mt-2 card-title mb-2",
+                                       id="matches-count-text",
+                                       style={"font-size": "4.2vw"})
+                         ),
+                         html.H6(
+                             className="card-text m-0", children=["Matches"], style={"font-size": "1vw"}
+                         ),
+                     ], style={"text-align": "center"}),
 
-                                html.Div(className="card-icon d-flex align-items-center", children=[
-                                    html.Img(className=icon_class_name,
-                                             src=icon, style={"width": icon_width,
-                                                              })
-                                ]
-                                )
-                            ])
+            html.Div(className="card-icon d-flex align-items-center", children=[
+                html.Img(className="img-fluid bx-lg",src="./assets/images/ic_soccer_ball.png", style={"width": "9rem"})
+            ]
+            )
+        ])
 
-                        ])
-                    ], style={"min-height": "12rem"})
-                    
+    ])
+], style={"min-height": "12rem"}),
+    className="col-md-6 col-lg-3 mb-md-0 mb-4 card-chart-container"
+)
 
 
 TeamStatsOverall = dbc.Row(children=[
@@ -88,51 +136,34 @@ TeamStatsOverall = dbc.Row(children=[
         ])
     ], style={"min-height": "12rem"})]
     ),
-    html.Div(className="col-md-6 col-lg-3 mb-md-0 mb-4 card-chart-container",id="team-stats-wc-winning"),
+    wc_winning_times_card,
 
-    html.Div(className="col-md-6 col-lg-3 mb-md-0 mb-4 card-chart-container",id="team-stats-participation"),
+    participations_card,
 
-    html.Div(className="col-md-6 col-lg-3 mb-md-0 mb-4 card-chart-container",id="team-stats-matches"),
+    matches_count_card,
 ])
 
 
 @callback(
-    Output("team-stats-wc-winning", "children"),
-    Output("team-stats-participation", "children"),
-    Output("team-stats-matches", "children"),
+    Output("winning-times-text", "children"),
+    Output("winning-years-text", "children"),
+    Output("participation-text","children"),
+    Output("matches-count-text" , "children"),
     Input("query-team-select", "value"),
-    State("matches-df", "data"),
-    State("qualified-teams-df", "data"),
-    State("tours-df", "data"),
-    State("team-stats-df","data")
 )
-def update_team_stats(query_team, matches_df, qualified_teams_df, tours_df,team_stats_df):
-    #matches_df = pd.read_json(matches_df)
-    # tours_df = pd.read_json(tours_df)
-    #qualified_teams_df = pd.read_json(qualified_teams_df)
+def update_team_stats(query_team):
 
-    matches_count = team_stats.loc[team_stats.team_name == query_team]["count_matches"].values[0]
-    winning_times = team_stats.loc[team_stats.team_name == query_team]["winning_times"].values[0]
-    participation_count = team_stats.loc[team_stats.team_name == query_team]["participations"].values[0]
-
-
-    # winning_times = len(tours_df.loc[tours_df.winner == query_team])
+    matches_count = team_stats.loc[team_stats.team_name ==
+                                   query_team]["count_matches"].values[0]
+    winning_times = team_stats.loc[team_stats.team_name ==
+                                   query_team]["winning_times"].values[0]
+    participation_count = team_stats.loc[team_stats.team_name ==
+                                         query_team]["participations"].values[0]
 
     winning_years = "- ".join(tours.loc[tours.winner ==
-                                           query_team, "year"].values.astype("str"))
-    # participation_count = len(
-    #     qualified_teams_df.loc[qualified_teams_df.team_name == query_team])
-
-    winning_times_card = StatsCard(icon="./assets/images/ic_world_cup.png",  card_body=f"{winning_times}",
-                                   card_subtitle=winning_years, card_tail="Times Winner", icon_width="8rem")
-
-    participation_count_card = StatsCard(icon="./assets/images/ic_stadium.png",  card_body=f"{participation_count}",
-                                         card_tail="Participations")
-
-    matches_count_card = StatsCard(icon="./assets/images/ic_soccer_ball.png",
-                                   card_body=f"{matches_count}", card_tail="Matches", icon_width="9rem", icon_class_name="img-fluid")
-
-    return winning_times_card, participation_count_card, matches_count_card
+                                        query_team, "year"].values.astype("str"))
+                                        
+    return winning_times, winning_years, participation_count, matches_count
 
 
 @callback(
