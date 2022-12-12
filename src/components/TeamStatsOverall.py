@@ -9,8 +9,6 @@ import os
 from dash import callback
 from utils.consts import *
 
-teams = pd.read_csv(os.path.join(DATA_FOLDER +"/processed/teams.csv"))
-
 
 def StatsCard(icon, card_header="", card_body="", card_tail="", class_name="", card_subtitle=" ", icon_width="9rem", icon_class_name="img-fluid bx-lg"):
     return html.Div(className="card", children=[
@@ -106,19 +104,24 @@ TeamStatsOverall = dbc.Row(children=[
     State("matches-df", "data"),
     State("qualified-teams-df", "data"),
     State("tours-df", "data"),
+    State("team-stats-df","data")
 )
-def update_team_stats(query_team, matches_df, qualified_teams_df, tours_df):
-    matches_df = pd.read_json(matches_df)
-    tours_df = pd.read_json(tours_df)
-    qualified_teams_df = pd.read_json(qualified_teams_df)
+def update_team_stats(query_team, matches_df, qualified_teams_df, tours_df,team_stats_df):
+    #matches_df = pd.read_json(matches_df)
+    # tours_df = pd.read_json(tours_df)
+    #qualified_teams_df = pd.read_json(qualified_teams_df)
 
-    matches_count = len(matches_df.loc[(matches_df.home_team_name == query_team) | (
-        matches_df.away_team_name == query_team)])
-    winning_times = len(tours_df.loc[tours_df.winner == query_team])
-    winning_years = "- ".join(tours_df.loc[tours_df.winner ==
+    matches_count = team_stats.loc[team_stats.team_name == query_team]["count_matches"].values[0]
+    winning_times = team_stats.loc[team_stats.team_name == query_team]["winning_times"].values[0]
+    participation_count = team_stats.loc[team_stats.team_name == query_team]["participations"].values[0]
+
+
+    # winning_times = len(tours_df.loc[tours_df.winner == query_team])
+
+    winning_years = "- ".join(tours.loc[tours.winner ==
                                            query_team, "year"].values.astype("str"))
-    participation_count = len(
-        qualified_teams_df.loc[qualified_teams_df.team_name == query_team])
+    # participation_count = len(
+    #     qualified_teams_df.loc[qualified_teams_df.team_name == query_team])
 
     winning_times_card = StatsCard(icon="./assets/images/ic_world_cup.png",  card_body=f"{winning_times}",
                                    card_subtitle=winning_years, card_tail="Times Winner", icon_width="8rem")

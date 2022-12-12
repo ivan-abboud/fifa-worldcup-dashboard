@@ -15,6 +15,7 @@ from pages.worldcup_analysis import worldcup_page_content
 from pages.team_analysis import team_analysis_page_content
 from pages.about import about_page_content
 import glob
+from utils.consts import team_stats
 
 
 
@@ -41,7 +42,8 @@ data_store = html.Div([dcc.Store(id="qualified-teams-df", data=data.to_json()),
                        dcc.Store(id="matches-df", data=matches.to_json()),
                        dcc.Store(id="tours-df", data=tours.to_json()),
                        dcc.Store(id="teams-df", data=teams.to_json()),
-                       dcc.Store(id="bookings-df", data=bookings.to_json())])
+                       dcc.Store(id="bookings-df", data=bookings.to_json()),
+                       dcc.Store(id="team-stats-df", data=team_stats.to_json())])
 
 external_style_sheet = glob.glob(os.path.join(ASSETS_FOLDER,"bootstrap/css") + "/*.css")
 external_style_sheet += glob.glob(os.path.join(ASSETS_FOLDER,"css") + "/*.css")

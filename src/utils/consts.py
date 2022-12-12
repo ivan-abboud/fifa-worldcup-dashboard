@@ -12,6 +12,7 @@ data = pd.read_csv(os.path.join(DATA_FOLDER,"processed/qualified_teams.csv"))
 goals = pd.read_csv(os.path.join(DATA_FOLDER,"processed/goals.csv"))
 tours = pd.read_csv(os.path.join(DATA_FOLDER,"processed/tournaments.csv"))
 matches = pd.read_csv(os.path.join(DATA_FOLDER,"processed/matches.csv"))
+team_stats = pd.read_csv(os.path.join(DATA_FOLDER,"processed/teams_overall_stats.csv"))
 
 
 GITHUB_PROFILE = "https://github.com/ivan-abboud"
