@@ -16,6 +16,7 @@ from pages.team_analysis import team_analysis_page_content
 from pages.about import about_page_content
 import glob
 from utils.consts import team_stats
+from components import TeamsComponentsCallbacks
 
 
 

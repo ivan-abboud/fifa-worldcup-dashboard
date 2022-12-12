@@ -113,7 +113,6 @@ def update_team_vs_rival_main_card(rival_team, teams_df):
 
     team_code = f"Team Code: {teams_df.loc[teams_df.team_name==rival_team , 'team_code'].values[0]}"
     team_region = f"Region: {teams_df.loc[teams_df.team_name==rival_team , 'region_name'].values[0]}"
-    team_confederation = f"Confedration: {teams_df.loc[teams_df.team_name==rival_team , 'confederation_code'].values[0]}"
     wiki_link = teams_df.loc[teams_df.team_name==rival_team , 'team_wikipedia_link'].values[0]
     text_link = f"Read More About {rival_team}"
 
