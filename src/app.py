@@ -16,7 +16,7 @@ from pages.team_analysis import team_analysis_page_content
 from pages.about import about_page_content
 import glob
 from utils.consts import team_stats
-from components import TeamsComponentsCallbacks
+# from components import TeamsComponentsCallbacks
 
 
 
@@ -54,7 +54,7 @@ external_style_sheet += glob.glob(os.path.join(ASSETS_FOLDER,"fonts") + "/*.css"
 
 app = dash.Dash(__name__,title="WorldCup Dashboard",
                 external_stylesheets=[dbc.themes.BOOTSTRAP] + external_style_sheet,
-                suppress_callback_exceptions=True
+                suppress_callback_exceptions=True,
                 )
 
 server = app.server
