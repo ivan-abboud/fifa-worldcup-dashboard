@@ -56,6 +56,8 @@ app = dash.Dash(__name__,title="WorldCup Dashboard",
                 suppress_callback_exceptions=True
                 )
 
+server = app.server
+
 
 app.layout = html.Div(className="layout-wrapper layout-content-navbar",
          children=[
