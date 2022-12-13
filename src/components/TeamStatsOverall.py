@@ -29,7 +29,8 @@ wc_winning_times_card = html.Div(html.Div(className="card", children=[
                      ], style={"text-align": "center"}),
 
             html.Div(className="card-icon d-flex align-items-center", children=[
-                html.Img(className="img-fluid bx-lg",src="./assets/images/ic_world_cup.png", style={"width": "8rem"})
+                html.Img(className="img-fluid bx-lg",
+                         src="./assets/images/ic_world_cup.png", style={"width": "8rem"})
             ]
             )
         ])
@@ -55,7 +56,8 @@ participations_card = html.Div(html.Div(className="card", children=[
                      ], style={"text-align": "center"}),
 
             html.Div(className="card-icon d-flex align-items-center", children=[
-                html.Img(className="img-fluid bx-lg",src="./assets/images/ic_stadium.png", style={"width": "8rem"})
+                html.Img(className="img-fluid bx-lg",
+                         src="./assets/images/ic_stadium.png", style={"width": "8rem"})
             ]
             )
         ])
@@ -82,7 +84,8 @@ matches_count_card = html.Div(html.Div(className="card", children=[
                      ], style={"text-align": "center"}),
 
             html.Div(className="card-icon d-flex align-items-center", children=[
-                html.Img(className="img-fluid bx-lg",src="./assets/images/ic_soccer_ball.png", style={"width": "9rem"})
+                html.Img(className="img-fluid bx-lg",
+                         src="./assets/images/ic_soccer_ball.png", style={"width": "9rem"})
             ]
             )
         ])
@@ -117,6 +120,7 @@ TeamStatsOverall = dbc.Row(children=[
                                     id="team-confederation-text",
                                     children=[f"Conf: "]),
                              html.A(id="query-team-wiki-link",
+                                    target="_blank",
                                     style={"font-size": "0.9rem"})
                          ]),
                 html.Div(className="card-icon d-flex align-items-center w-40 justify-content-center", children=[
@@ -176,8 +180,8 @@ TeamStatsOverall = dbc.Row(children=[
 
     Output("winning-times-text", "children"),
     Output("winning-years-text", "children"),
-    Output("participation-text","children"),
-    Output("matches-count-text" , "children"),
+    Output("participation-text", "children"),
+    Output("matches-count-text", "children"),
 
     Input("query-team-select", "value"),
     State("teams-df", "data"),
@@ -201,5 +205,4 @@ def update_team_select(query_team, teams_df):
     winning_years = "- ".join(tours.loc[tours.winner ==
                                         query_team, "year"].values.astype("str"))
 
-
-    return team_code, team_region, team_confederation, team_flag, wiki_link, f"Read More About {query_team}",winning_times, winning_years, participation_count, matches_count
+    return team_code, team_region, team_confederation, team_flag, wiki_link, f"Read More About {query_team}", winning_times, winning_years, participation_count, matches_count

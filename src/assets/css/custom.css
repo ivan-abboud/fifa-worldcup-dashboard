@@ -96,3 +96,18 @@
     padding-right: 4rem;
     padding-top: 10rem;
   }
+
+
+  .nav-link.active{
+    background-color: #0084d6 !important;
+    color: #fff !important;
+    box-shadow: 0 2px 4px 0 rgba(32, 121, 255, 0.308) !important;
+  }
+
+  .nav-link.active:hover{
+    color: #fff !important;
+  }
+
+  .nav-link:hover {
+    color:  #0084d6 !important;
+  }

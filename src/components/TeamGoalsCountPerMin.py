@@ -43,7 +43,7 @@ def update_figures(query_team, goals_df):
     # tmp_df["goals_count"] = tmp_df["count"] + tmp_df["size"]
     # tmp_df.fillna(0,inplace=True)
     return dcc.Graph(figure=px.line(grouped_df,
-    x="minute_regulation", y="size", labels={"goals_count":"Goals Count" , "minute": "Minute"} , color_discrete_sequence=theme.COLOR_PALLETE)
+    x="minute_regulation", y="size", labels={"size":"Goals Count" , "minute_regulation": "Minute"} , color_discrete_sequence=theme.COLOR_PALLETE)
         .update_layout(paper_bgcolor="rgb(0,0,0,0)",
                        plot_bgcolor="rgb(0,0,0,0)",
                        legend=dict(

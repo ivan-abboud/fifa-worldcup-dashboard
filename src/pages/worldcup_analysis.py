@@ -23,7 +23,7 @@ intro_card = html.Div(className="col-md-12 col-lg-12 mb-md-0 mb-4 card-chart-con
 
                 
                 html.P(["Please feel free to report any problems or reach me directely,",
-                html.A(" Ivan Abboud.", href=LINKEDIN, style={"color": "#0084d6"})],className="card-title me-4 mb-0 mt-4"),
+                html.A(" Ivan Abboud.", href=LINKEDIN,target="_blank", style={"color": "#0084d6"})],className="card-title me-4 mb-0 mt-4"),
 
             ]),
 

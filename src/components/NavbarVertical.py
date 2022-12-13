@@ -1,6 +1,6 @@
 from dash import html
 import dash_bootstrap_components as dbc
-
+import utils.theme as theme
 
 
 sidebar = html.Div(
@@ -37,7 +37,7 @@ sidebar = html.Div(
                     ],
                     href="/about",
                     active="exact",
-                    className="pe-3"
+                    className="pe-3",
                 ),
             ],
             vertical=True,

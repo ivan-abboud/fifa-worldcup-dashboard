@@ -13,7 +13,7 @@ TeamGoalsCountPerShirt = html.Div(className="card-chart-container col-lg-4 md-6 
                                       html.Div(
                                           className="card-chart",
                                           children=[
-                                              html.H4("Team Goals Count Per Shirt Number",
+                                              html.H4("Goals Count Per Shirt Number",
                                                       className="card-header card-m-0 me-2 pb-3"),
                                               dls.Triangle(
                                                   id="team-goals-count-per-shirt-num",

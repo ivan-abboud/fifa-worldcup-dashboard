@@ -51,7 +51,7 @@ TeamVsRivalMainCard = html.Div(className="col-md-6 col-lg-3 mb-md-0 mb-4 card-ch
                                                               html.P(className="card-title mb-1 mt-1",
                                                                       id="rival-main-card-body",
                                                                       style={"font-size": "1rem"}),
-                                                              html.A(id="rival-main-card-link")
+                                                              html.A(id="rival-main-card-link",target="_blank")
                                                     ],
                                                     ),
 
