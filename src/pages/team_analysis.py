@@ -7,6 +7,8 @@ from components.TeamMatchesResults import TeamMatchesResults
 from components.TeamGoalsStats import TeamGoalsStats
 from components.TeamStatsOverall import TeamStatsOverall
 from components.TeamCards import TeamBookings
+from components.TeamGoalsCountPerMin import TeamGoalsCountPerMin
+from components.TeamGoalsCountPerShirt import TeamGoalsCountPerShirt
 
 team_analysis_page_content = html.Div(children=[
     TeamStatsOverall,
@@ -23,11 +25,11 @@ team_analysis_page_content = html.Div(children=[
         TeamGoalsStats
 
     ]),
-    # dbc.Row(children=[
-    #     TeamGoalsCountPerMin,
-    #     TeamGoalsCountPerShirt
+    dbc.Row(children=[
+        TeamGoalsCountPerMin,
+        TeamGoalsCountPerShirt
 
-    # ]),
+    ]),
     # dbc.Row(children=[
     #     RivalSectionTitle
     # ]),
