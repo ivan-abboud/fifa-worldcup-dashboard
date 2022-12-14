@@ -1,15 +1,3 @@
-from utils.consts import team_stats
-import glob
-from pages.about import about_page_content
-from pages.team_analysis import team_analysis_page_content
-from pages.worldcup_analysis import worldcup_page_content
-from dash.dependencies import Input, Output
-from components.Footer import Footer
-from components.NavbarVertical import sidebar
-import pandas as pd
-from dash import dcc, html, callback
-import dash_bootstrap_components as dbc
-import dash
 import sys
 import os
 module_path = os.path.abspath(os.path.join(
@@ -17,7 +5,18 @@ module_path = os.path.abspath(os.path.join(
 if module_path not in sys.path:
     sys.path.append(module_path)
 
-# from components import TeamsComponentsCallbacks
+import dash
+import dash_bootstrap_components as dbc
+from dash import dcc, html, callback
+import pandas as pd
+from components.NavbarVertical import sidebar
+from components.Footer import Footer
+from dash.dependencies import Input, Output
+from pages.worldcup_analysis import worldcup_page_content
+from pages.team_analysis import team_analysis_page_content
+from pages.about import about_page_content
+import glob
+from utils.consts import team_stats
 
 
 # RAW
