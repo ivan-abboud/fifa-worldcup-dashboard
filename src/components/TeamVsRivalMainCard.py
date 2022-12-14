@@ -42,8 +42,9 @@ MatchesCount = html.Div(className="card mt-4" , children=[
 TeamVsRivalMainCard = html.Div(className="col-md-6 col-lg-3 mb-md-0 mb-4 card-chart-container",
                                children=[html.Div(className="card", children=[
                                    html.Div(className="card-body", children=[
-                                       html.P("Choose Rival Team to see history with",
-                                              className="card-text mt-1 mb-2"),
+                                       html.Small("Choose Rival Team to see history with",
+                                              className="card-text mt-1 mb-2",
+                                              ),
                                        dbc.Select(id="rival-team-select"),
                                        html.Div(className="d-flex justify-content-between mt-3", children=[
                                            html.Div(className="card-info w-100",
@@ -51,7 +52,7 @@ TeamVsRivalMainCard = html.Div(className="col-md-6 col-lg-3 mb-md-0 mb-4 card-ch
                                                               html.P(className="card-title mb-1 mt-1",
                                                                       id="rival-main-card-body",
                                                                       style={"font-size": "1rem"}),
-                                                              html.A(id="rival-main-card-link",target="_blank")
+                                                              html.A(children=[html.Small(id="rival-link-text")],id="rival-main-card-link",target="_blank")
                                                     ],
                                                     ),
 
@@ -103,7 +104,7 @@ def update_rival_select_options(query_team, matches_df):
     Output("rival-main-card-icon", "src"),
     Output("rival-main-card-header" , "children"),
     Output("rival-main-card-body" , "children"),
-    Output("rival-main-card-link" , "children"),
+    Output("rival-link-text" , "children"),
     Output("rival-main-card-link" , "href"),
     Input("rival-team-select", "value"),
     State("teams-df", "data")

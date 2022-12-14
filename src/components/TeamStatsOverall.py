@@ -24,7 +24,9 @@ wc_winning_times_card = html.Div(html.Div(className="card", children=[
                              className="card-text m-0", children=["Times Winner"], style={"font-size": "1vw"}
                          ),
                          html.Small(
-                             className="card-text", id="winning-years-text"
+                             className="card-text", id="winning-years-text",
+                             style={"font-size" :"0.6rem"}
+
                          )
                      ], style={"text-align": "center"}),
 
@@ -36,7 +38,7 @@ wc_winning_times_card = html.Div(html.Div(className="card", children=[
         ])
 
     ])
-], style={"min-height": "12rem"}),
+], style={"min-height": "11rem"}),
     className="col-md-6 col-lg-3 mb-md-0 mb-4 card-chart-container"
 )
 
@@ -63,7 +65,7 @@ participations_card = html.Div(html.Div(className="card", children=[
         ])
 
     ])
-], style={"min-height": "12rem"}),
+], style={"min-height": "11rem"}),
     className="col-md-6 col-lg-3 mb-md-0 mb-4 card-chart-container"
 )
 
@@ -91,7 +93,7 @@ matches_count_card = html.Div(html.Div(className="card", children=[
         ])
 
     ])
-], style={"min-height": "12rem"}),
+], style={"min-height": "11rem"}),
     className="col-md-6 col-lg-3 mb-md-0 mb-4 card-chart-container"
 )
 
@@ -110,20 +112,20 @@ TeamStatsOverall = dbc.Row(children=[
                                  ],
                                  style={"width": "10rem"}
                              ),
-                             html.P(className="card-text mb-1 mt-1",
+                             html.P(className="card-text mb-1 mt-1 fs-sm",
                                     id="team-code-text",
                                     children=[f"Team Code: "]),
-                             html.P(className="card-text mb-1",
+                             html.P(className="card-text mb-1 fs-sm",
                                     id="team-region-text",
                                     children=[f"Region:"]),
-                             html.P(className="card-text mb-1",
+                             html.P(className="card-text mb-1 fs-sm",
                                     id="team-confederation-text",
                                     children=[f"Conf: "]),
                              html.A(id="query-team-wiki-link",
                                     target="_blank",
-                                    style={"font-size": "0.9rem"})
+                                    style={"font-size": "0.7rem"})
                          ]),
-                html.Div(className="card-icon d-flex align-items-center w-40 justify-content-center", children=[
+                html.Div(className="card-icon d-flex align-items-center w-40 justify-content-center p-1", children=[
                     dls.Triangle(
                         html.Img(className="img-fluid bx-lg",
                                  id="team-flag-main",
@@ -138,7 +140,7 @@ TeamStatsOverall = dbc.Row(children=[
             ])
 
         ])
-    ], style={"min-height": "12rem"})]
+    ], style={"min-height": "11rem"})]
     ),
     wc_winning_times_card,
 

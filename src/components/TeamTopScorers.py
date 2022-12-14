@@ -42,7 +42,7 @@ def update_figures(query_team, goals_df):
                                     plot_bgcolor="rgb(0,0,0,0)",
                                     legend=dict(
                                         bgcolor=theme.LEGEN_BG),
-                                    font_family=theme.FONT_FAMILY,
+                                    #font_family=theme.FONT_FAMILY,
                                     ),
                      config={
         "displayModeBar": False},

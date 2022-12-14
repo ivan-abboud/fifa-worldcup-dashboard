@@ -12,7 +12,7 @@ TeamGoalsStats = html.Div(className="card-chart-container col-lg-4 md-6 sm-12",
                               html.Div(
                                   className="card-chart",
                                   children=[
-                                      html.H4("Goals Scored vs. Goals Conceded",
+                                      html.H4("Scored vs. Conceded  Goals",
                                               className="card-header card-m-0 me-2 pb-3"),
                                       dls.Triangle(
                                           id="team-goals-stats",

@@ -111,3 +111,7 @@
   .nav-link:hover {
     color:  #0084d6 !important;
   }
+
+  .fs-sm{
+    font-size: 0.7rem;
+  }
