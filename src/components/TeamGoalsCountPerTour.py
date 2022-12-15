@@ -27,6 +27,7 @@ TeamGoalsCountPerTour = html.Div(className="card-chart-container col-lg-6 md-6 s
                            )
 
                        ],
+                       style={"min-height" :"26.25rem"}
                        )
 
 

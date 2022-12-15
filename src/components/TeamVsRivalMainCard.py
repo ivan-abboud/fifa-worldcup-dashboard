@@ -22,7 +22,8 @@ MatchesCount = html.Div(className="card mt-4" , children=[
                                 html.Div(className="card-info w-100",
                                          children=[html.Small(className="card-text", children=["Total Matches"]),
                                          html.Div(className="mb-2 mt-2", children=[
-                                                   html.H2(className="card-title mb-2", id="matches-with-rival-count", style={"font-size":"2vw"})]),
+                                            dls.Triangle(
+                                                   html.H2(className="card-title mb-2", id="matches-with-rival-count", style={"font-size":"2vw"}))]),
                                                    html.Small(
                                                        className="card-text", children=["Matches"], ),
                                                    
@@ -57,7 +58,7 @@ TeamVsRivalMainCard = html.Div(className="col-md-6 col-lg-3 mb-md-0 mb-4 card-ch
                                                     ),
 
                                            html.Div(className="card-icon d-flex align-items-center", children=[
-                                               html.Img(className="img-fluid", id="rival-main-card-icon",
+                                               html.Img(className="img-fluid", id="rival-main-card-icon",alt="flag",
                                                         src="icon",style={"width" : "5em","box-shadow": "0 2px 6px 0 rgb(67 89 113 / 20%)"})
                                            ]
                                            )

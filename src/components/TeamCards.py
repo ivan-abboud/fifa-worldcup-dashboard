@@ -1,6 +1,8 @@
 from dash.dependencies import Input, Output, State
 import pandas as pd
 from dash import html, callback
+import dash_loading_spinners as dls
+from utils.theme import LOADING_DEBOUNCE
 
 yellow_cards = html.Div(className="col-md-12 col-lg-12 mb-md-0 mb-4",
                         children=[html.Div(className="card", children=[
@@ -9,15 +11,10 @@ yellow_cards = html.Div(className="col-md-12 col-lg-12 mb-md-0 mb-4",
 
                                     html.Div(className="card-info w-100",
                                          children=[html.Small(className="card-text", children=["Yellow Cards"]),
+                                                   dls.Triangle(
                                                    html.H2(className="mb-2 mt-2 card-title mb-2",
                                                    id="yellow-card-body",
-
-
-                                                           #    children=[
-                                                           #        card_body],
-                                                           style={"font-size": "4vw"}),
-                                                   #    html.H6(
-                                                   #        className="card-text m-0", children=[card_tail], style={"font-size": "1rem"}),
+                                                           style={"font-size": "4vw"})),
                                                    html.Small(className="card-text",
                                                               id="yellow-card-subtitle"
                                                               )
@@ -44,15 +41,10 @@ red_cards = html.Div(className="col-md-12 col-lg-12 mb-md-0 mb-4",
 
                                     html.Div(className="card-info w-100",
                                          children=[html.Small(className="card-text", children=["Red Cards"]),
+                                         dls.Triangle(
                                                    html.H2(className="mb-2 mt-2 card-title mb-2",
                                                    id="red-card-body",
-
-
-                                                           #    children=[
-                                                           #        card_body],
-                                                           style={"font-size": "4vw"}),
-                                                   #    html.H6(
-                                                   #        className="card-text m-0", children=[card_tail], style={"font-size": "1rem"}),
+                                                           style={"font-size": "4vw"}), debounce=LOADING_DEBOUNCE),
                                                    html.Small(className="card-text",
                                                               id="red-card-subtitle"
                                                               )
