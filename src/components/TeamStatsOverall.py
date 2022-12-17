@@ -1,11 +1,9 @@
-from components.StatsCardWithIcon import CardWithIcon
 from dash.dependencies import Input, Output, State
 import pandas as pd
 import dash_bootstrap_components as dbc
 from dash import html
 import dash_loading_spinners as dls
 import utils.theme as theme
-import os
 from dash import callback
 from utils.consts import *
 
@@ -25,7 +23,7 @@ wc_winning_times_card = html.Div(html.Div(className="card", children=[
                          ),
                          html.Small(
                              className="card-text", id="winning-years-text",
-                             style={"font-size" :"0.6rem"}
+                             style={"font-size": "0.6rem"}
 
                          )
                      ], style={"text-align": "center"}),
@@ -150,28 +148,6 @@ TeamStatsOverall = dbc.Row(children=[
 ])
 
 
-# @callback(
-#     Output("winning-times-text", "children"),
-#     Output("winning-years-text", "children"),
-#     Output("participation-text","children"),
-#     Output("matches-count-text" , "children"),
-#     Input("query-team-select", "value"),
-# )
-# def update_team_stats(query_team):
-
-#     matches_count = team_stats.loc[team_stats.team_name ==
-#                                    query_team]["count_matches"].values[0]
-#     winning_times = team_stats.loc[team_stats.team_name ==
-#                                    query_team]["winning_times"].values[0]
-#     participation_count = team_stats.loc[team_stats.team_name ==
-#                                          query_team]["participations"].values[0]
-
-#     winning_years = "- ".join(tours.loc[tours.winner ==
-#                                         query_team, "year"].values.astype("str"))
-
-#     return winning_times, winning_years, participation_count, matches_count
-
-
 @callback(
     Output("team-code-text", "children"),
     Output("team-region-text", "children"),
@@ -179,12 +155,10 @@ TeamStatsOverall = dbc.Row(children=[
     Output("team-flag-main", "src"),
     Output("query-team-wiki-link", "href"),
     Output("query-team-wiki-link", "children"),
-
     Output("winning-times-text", "children"),
     Output("winning-years-text", "children"),
     Output("participation-text", "children"),
     Output("matches-count-text", "children"),
-
     Input("query-team-select", "value"),
     State("teams-df", "data"),
 )

@@ -5,7 +5,6 @@ import utils.theme as theme
 import pandas as pd
 from dash.dependencies import Input, Output, State
 import dash_loading_spinners as dls
-import dash_bootstrap_components as dbc
 from dash import callback
 
 TeamGoalsCountPerTour = html.Div(className="card-chart-container col-lg-6 md-6 sm-12",
@@ -33,9 +32,6 @@ TeamGoalsCountPerTour = html.Div(className="card-chart-container col-lg-6 md-6 s
 
 @callback(
     Output("team-goals-count-per-tour", "children"),
-    # Output("team-ranking-table", "children"),
-    # Output("team-goals-count-per-shirt-num", "children"),
-    # Output("team-goals-count-per-minute", "children"),
     Input("query-team-select", "value"),
     State("goals-df", "data"),
     State("qualified-teams-df" , "data")

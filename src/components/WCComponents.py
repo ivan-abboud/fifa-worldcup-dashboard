@@ -3,7 +3,7 @@ import pandas as pd
 from dash import html, dcc
 import dash_bootstrap_components as dbc
 import utils.theme as theme
-from utils.consts import tours, goals, award_winners, teams
+from utils.consts import tours, goals, award_winners
 import numpy as np
 
 
@@ -40,7 +40,7 @@ WCWinnersBar = create_card(class_name="card-chart-container col-lg-3 col-md-12 c
                                labels={"value": "Country",
                                        "size": "", "winner": "Winner"},
                            ).update_xaxes(categoryorder="total descending",
-                                          ).update_layout(margin={"r": 20,"l":30}))
+                                          ).update_layout(margin={"r": 20, "l": 30}))
 
 
 tmp_tours = tours
@@ -113,7 +113,8 @@ GoalsCountPerTourLine = create_card(class_name="card-chart-container col-lg-12 c
                                     title="Goals Count in Each Tour",
                                     fig=px.line(goals.groupby(
                                         "year", as_index=False).size(), x="year", y="size",
-                                        labels={"year":"Year" , "size":"Count"},
+                                        labels={"year": "Year",
+                                                "size": "Count"},
                                         height=theme.MAX_CHART_HEIGHT,
                                         color_discrete_sequence=theme.COLOR_PALLETE,))
 
@@ -134,7 +135,8 @@ MostAttendedMatchesBar = create_card(class_name="card-chart-container col-lg-5 c
                                      fig=px.bar(tours, x="number", y="year",
                                                 text="game(s)",
                                                 hover_data=["venue", "hosts"],
-                                                labels={"number":"Attendance" , "year":"Year"},
+                                                labels={
+                                                    "number": "Attendance", "year": "Year"},
                                                 orientation="h",
                                                 height=795,
                                                 color_discrete_sequence=theme.COLOR_PALLETE
@@ -160,9 +162,10 @@ MatchesCountBar = create_card(class_name="card-chart-container col-lg-7 col-md-1
                               fig=px.bar(tours, x="year", y="matches", color_discrete_sequence=theme.COLOR_PALLETE,
                                          height=theme.MAX_CHART_HEIGHT,
                                          text_auto=True,
-                                         labels={"matches":"Matches Count", "year":""}
+                                         labels={
+                                             "matches": "Matches Count", "year": ""}
                                          ).update_xaxes(type="category",
-                                                        ).update_layout(margin={"r":30}))
+                                                        ).update_layout(margin={"r": 30}))
 
 ToursTimeline = create_card(class_name="card-chart-container col-lg-5 col-md-12 col-sm-12",
                             title="WorldCups Timeline",
@@ -174,7 +177,5 @@ ToursTimeline = create_card(class_name="card-chart-container col-lg-5 col-md-12 
                                 "y": "Year", "color": "Days", "x_start": "Start Date", "x_end": "End Date"},
                                 height=theme.MAX_CHART_HEIGHT,
                                 hover_data=["host_country"],
-                                # color_discrete_sequence=theme.COLOR_PALLETE,
                                 color_continuous_scale=theme.COLOR_PALLETE[:2],
-                                # color_continuous_midpoint=theme.COLOR_PALLETE[0]
                             ))

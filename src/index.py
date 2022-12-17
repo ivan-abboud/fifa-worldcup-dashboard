@@ -1,42 +1,10 @@
-from dash import html, dcc, callback
-from components.NavbarVertical import sidebar
+from dash import callback
 from pages.team_analysis import team_analysis_page_content
 from dash.dependencies import Input, Output
-from app import app, data_store
-from components.Footer import Footer
 from pages.worldcup_analysis import worldcup_page_content
 from pages.about import about_page_content
 
-# app.layout = html.Div(className="layout-wrapper layout-content-navbar",
-#          children=[
-#              html.Div(className="layout-container",
-#                       children=[
-#                         dcc.Location(id="url"),
-#                       data_store,
-#                           html.Aside(className="",
-#                                      children=[
-#                                         sidebar
 
-#                                      ]),
-#                           html.Div(className="layout-page",
-#                                    children=[
-#                                        html.Div(className="content-wrapper",
-#                                                 children=[
-#                                                     html.Div(className="container-xxl flex-grow-1 container-p-y",
-#                                                                 id="page-content",
-#                                                              children=[
-
-#                                                              ]),
-#                                                     html.Footer(className="content-footer footer bg-footer-theme",
-#                                                                 children=[
-#                                                                     Footer
-#                                                                 ],style={"margin-left":"6rem"})
-
-#                                                 ])
-#                                    ])
-
-#                       ])
-#          ])
 
 @callback(
     Output(component_id='page-content', component_property='children'),
@@ -49,10 +17,3 @@ def routing(path):
         return team_analysis_page_content
     elif path == "/about":
         return about_page_content
-
-
-# if __name__ == "__main__":
-#     app.run_server(debug=True, host="0.0.0.0", port=5050)
-
-
-

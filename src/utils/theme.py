@@ -18,5 +18,3 @@ LOADING_DEBOUNCE = 0
 MAX_CHART_HEIGHT = 350
 
 CHART_STYLE = {"height" : "21.875rem"}
-
-LINKEDIN = "https://www.linkedin.com/in/ivan-abboud-737b2120a/"

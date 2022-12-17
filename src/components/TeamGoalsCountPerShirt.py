@@ -37,8 +37,8 @@ TeamGoalsCountPerShirt = html.Div(className="card-chart-container col-lg-4 md-6 
 def update_figures(query_team, goals_df):
     goals_df = pd.read_json(goals_df)
     return dcc.Graph(figure=px.bar(goals_df.loc[(goals_df.team_name == query_team) & (goals_df.shirt_number != 0)].groupby("shirt_number", as_index=False).size(),
-    x="shirt_number", y="size" , labels={"size":"Goals Count" , "shirt_number":"Shirt Number"} , color_discrete_sequence=theme.COLOR_PALLETE)
-    .update_xaxes(type="category")
+                                   x="shirt_number", y="size", labels={"size": "Goals Count", "shirt_number": "Shirt Number"}, color_discrete_sequence=theme.COLOR_PALLETE)
+                     .update_xaxes(type="category")
                      .update_layout(paper_bgcolor="rgb(0,0,0,0)",
                                     plot_bgcolor="rgb(0,0,0,0)",
                                     legend=dict(
