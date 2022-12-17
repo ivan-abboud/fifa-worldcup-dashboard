@@ -30,8 +30,7 @@ A Plotly Dash app that monitors all you need to know about FIFA World Cup tourna
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![](https://github.com/ivan-abboud/fifa-worldcup-dashboard/blob/main/demo.gif)
 
 
 
